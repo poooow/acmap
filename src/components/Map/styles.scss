@@ -1,0 +1,13 @@
+.leaflet-container {
+  height: 100vh;
+}
+
+.cluster-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #ffffff;
+  outline: 5px solid #ffffffaa;
+  font-weight: bold;
+}
