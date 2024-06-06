@@ -1,5 +1,6 @@
 ul {
   list-style-type: none;
+  margin-right: 1rem;
 
   li {
     h2 {
@@ -13,7 +14,7 @@ ul {
       }
 
       img {
-        margin-right: 1rem;
+        margin: 0 1rem 0 2px;
         border-radius: 50%;
         border: 2px solid #ffffff;
         outline: 2px solid #777777;

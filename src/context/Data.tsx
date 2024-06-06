@@ -11,12 +11,15 @@ interface DataContext {
   toggleStarred(id: number): void
   currentMarkerId: number
   setCurrentMarkerId(id: number): void
+  showSidebar: boolean
+  setShowSidebar(arg0: boolean): void
 }
 
 const DataContext = createContext({} as DataContext)
 const DataProvider = (props: { children: React.ReactNode }) => {
   const [starIds, setStarIds] = useState<number[]>([])
   const [currentMarkerId, setCurrentMarkerId] = useState<number>(-1)
+  const [showSidebar, setShowSidebar] = useState(false)
 
   useEffect(() => {
     if (starIds.length) {
@@ -76,7 +79,9 @@ const DataProvider = (props: { children: React.ReactNode }) => {
         removeStarred,
         toggleStarred,
         currentMarkerId,
-        setCurrentMarkerId
+        setCurrentMarkerId,
+        showSidebar,
+        setShowSidebar
       }}>
       {props.children}
     </DataContext.Provider>

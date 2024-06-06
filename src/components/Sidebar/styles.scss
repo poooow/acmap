@@ -22,37 +22,43 @@
   box-shadow: -10px 0px 10px 0px rgba(0, 0, 0, 0.15);
   transition: right 0.2s ease-in-out;
 
-  .star {
-    position: absolute;
-    right: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    cursor: pointer;
+  &.show {
+    right: 0;
+  }
 
-    &:not(.starred) img {
-      &:hover {
-        fill: #fff;
-        content: url("/images/icons/star-filled.svg");
+  .sidebar-container {
+    overflow-y: scroll;
+    height: 100%;
+
+    .star {
+      position: absolute;
+      right: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      cursor: pointer;
+
+      &:not(.starred) img {
+        &:hover {
+          fill: #fff;
+          content: url("/images/icons/star-filled.svg");
+        }
+      }
+
+      .link a {
+        font-size: 14px;
       }
     }
 
-    .link a {
-      font-size: 14px;
+    .sidebar-image {
+      margin: 4px;
+      border-radius: 50%;
+      border: 4px solid #ffffff;
+      outline: 4px solid #777777;
     }
-  }
 
-  .sidebar-image {
-    border-radius: 50%;
-    border: 4px solid #ffffff;
-    outline: 4px solid #777777;
-  }
-
-  h1 {
-    padding: 1rem 0;
-  }
-
-  &.show {
-    right: 0;
+    h1 {
+      padding: 1rem 0;
+    }
   }
 }

@@ -10,7 +10,7 @@ import useCurrentMarker from "@/hooks/useCurrentMarker"
 
 export default function Map() {
   const currentMarker = useCurrentMarker()
-  const { isStarred, toggleStarred } = useDataContext()
+  const { isStarred, toggleStarred, setShowSidebar } = useDataContext()
 
   var markerIcon = (id: number, title: string) => new DivIcon({
     className: `marker-icon`,
@@ -45,6 +45,7 @@ export default function Map() {
       toggleStarred(markerId)
     } else {
       currentMarker.setId(markerId)
+      setShowSidebar(true)
     }
   }
 
