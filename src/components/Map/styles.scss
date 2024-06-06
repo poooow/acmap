@@ -1,5 +1,6 @@
 .leaflet-container {
   height: 100vh;
+  font-family: "DM Sans", sans-serif;
 }
 
 .cluster-icon {
@@ -10,4 +11,67 @@
   background-color: #ffffff;
   outline: 5px solid #ffffffaa;
   font-weight: bold;
+}
+
+.marker-icon {
+  position: relative;
+  width: 70px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .marker-image-container {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    outline: 2px solid #777777;
+
+    .star {
+      position: absolute;
+      right: -7px;
+      top: -7px;
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      background-size: 20px 20px;
+    }
+
+    &.starred .star {
+      background-image: url("/images/icons/star-starred.svg");
+    }
+
+    &:not(.starred):hover .star,
+    &:not(.starred) .star:hover {
+      background-image: url("/images/icons/star.svg");
+    }
+
+    .marker-image {
+      width: 64px !important;
+      height: 64px;
+      border-radius: 50%;
+    }
+
+    &.current {
+      outline: 3px solid #287abd;
+    }
+  }
+
+  .marker-title {
+    margin-top: -10px;
+    padding: 2px 3px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-radius: 5px;
+    outline: 2px solid #777777;
+    color: #555;
+    font-size: 12px;
+    line-height: 1.15;
+    width: min-content;
+    z-index: 1;
+  }
 }

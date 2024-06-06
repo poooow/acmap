@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next dev",
+    "start prod": "next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -15,6 +16,7 @@
     "react-dom": "^18",
     "react-leaflet": "^4.2.1",
     "react-leaflet-cluster": "^2.1.0",
+    "react-router-dom": "^6.23.1",
     "sass": "^1.77.3"
   },
   "devDependencies": {

@@ -1,66 +1,27 @@
-"use client";
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-import { Icon, DivIcon } from "leaflet";
-import MarkerClusterGroup from "react-leaflet-cluster";
-import "leaflet/dist/leaflet.css";
-import "./styles.scss";
+"use client"
+import { MapContainer, Marker, TileLayer, useMapEvents } from "react-leaflet"
+import { DivIcon, LeafletMouseEvent } from "leaflet"
+import MarkerClusterGroup from "react-leaflet-cluster"
+import markers from "../../content/markers.json"
+import { useDataContext } from '../../context/Data'
+import "leaflet/dist/leaflet.css"
+import "./styles.scss"
+import useCurrentMarker from "@/hooks/useCurrentMarker"
 
-type Markers = {
-  geocode: [number, number]
-  popup: string
-}[]
+export default function Map() {
+  const currentMarker = useCurrentMarker()
+  const { isStarred, toggleStarred } = useDataContext()
 
-export default function Home() {
-
-  const markers: Markers = [
-    {
-      "geocode": [50.0755, 14.4378],
-      "popup": "Prague - The capital city, known for its Old Town Square, the Astronomical Clock, and the Charles Bridge."
-    },
-    {
-      "geocode": [48.9730, 14.4754],
-      "popup": "Český Krumlov - A picturesque town with a historic castle, charming streets, and the Vltava River."
-    },
-    {
-      "geocode": [49.7435, 13.3736],
-      "popup": "Plzeň - Famous for Pilsner beer, the Pilsner Urquell Brewery, and the Gothic St. Bartholomew's Cathedral."
-    },
-    {
-      "geocode": [50.2320, 12.8713],
-      "popup": "Karlovy Vary - Renowned spa town with hot springs, colonnades, and the International Film Festival."
-    },
-    {
-      "geocode": [49.1951, 16.6068],
-      "popup": "Brno - The second-largest city, home to the Špilberk Castle, Villa Tugendhat, and a vibrant cultural scene."
-    },
-    {
-      "geocode": [49.9428, 15.3815],
-      "popup": "Kutná Hora - Historic town with the Gothic St. Barbara's Church and the Sedlec Ossuary, known as the Bone Church."
-    },
-    {
-      "geocode": [50.7725, 15.0684],
-      "popup": "Bohemian Switzerland - A national park with stunning sandstone formations, the Pravčická Archway, and beautiful hiking trails."
-    },
-    {
-      "geocode": [50.3649, 14.4843],
-      "popup": "Terezín - Historical site of the Terezín concentration camp, now a memorial and museum."
-    },
-    {
-      "geocode": [50.6793, 14.0346],
-      "popup": "Hřensko - Gateway to the Bohemian Switzerland National Park, known for the Elbe Sandstone Mountains and scenic boat rides."
-    },
-    {
-      "geocode": [49.4895, 16.7713],
-      "popup": "Moravian Karst - A karst landscape with caves, gorges, and the famous Macocha Abyss."
-    }
-  ];
-
-  const markerIcon = new Icon({
-    iconUrl: '/images/marker.svg',
-    iconSize: [60, 60]
+  var markerIcon = (id: number, title: string) => new DivIcon({
+    className: `marker-icon`,
+    html: `<div class="marker-image-container${isStarred(id) ? ' starred' : ""}${id === currentMarker.getId() ? " current" : ""}">
+             <div class="star"></div>
+             <img class="marker-image" src="/images/markers/${id}.jpg"/>
+           </div>
+           <div class="marker-title">${title}</div>`,
   })
 
-  const createCustomClusterIcon = (cluster: { getChildCount: () => any; }) => {
+  const createCustomClusterIcon = (cluster: { getChildCount: () => any }) => {
     return new DivIcon({
       html: `<div>${cluster.getChildCount()}</div>`,
       className: "cluster-icon",
@@ -68,8 +29,27 @@ export default function Home() {
     })
   }
 
+  // Allow attach click event on map container
+  function MapClickComponent() {
+    useMapEvents({
+      click: () => {
+        currentMarker.setId(-1)
+      }
+    })
+    return null
+  }
+
+  const handleMarkerClick = (e: LeafletMouseEvent, markerId: number) => {
+    //@ts-ignore
+    if (e.originalEvent.target.classList.contains("star")) {
+      toggleStarred(markerId)
+    } else {
+      currentMarker.setId(markerId)
+    }
+  }
+
   return (
-    <MapContainer center={[50, 16]} zoom={5}>
+    <MapContainer center={[50, 16]} zoom={7} closePopupOnClick={true}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
@@ -84,12 +64,18 @@ export default function Home() {
         chunkedLoading
         iconCreateFunction={createCustomClusterIcon}
       >
-        {markers.map((marker, index) => (
-          <Marker position={marker.geocode} icon={markerIcon} key={index}>
-            <Popup>{marker.popup}</Popup>
+        {markers.map((marker) => (
+          //@ts-ignore
+          <Marker position={marker.geocode}
+            icon={markerIcon(marker.id, marker.name)}
+            key={marker.id}
+            eventHandlers={{
+              click: (e) => handleMarkerClick(e, marker.id)
+            }}>
           </Marker>
         ))}
       </MarkerClusterGroup>
+      <MapClickComponent />
     </MapContainer>
-  );
+  )
 }
