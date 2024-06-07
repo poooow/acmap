@@ -1,3 +1,5 @@
+"use client"
+
 import { useEffect, useState, createContext, useContext } from 'react'
 
 const STAR_IDS_KEY = 'starIds'
@@ -9,8 +11,8 @@ interface DataContext {
   setStarred(id: number): void
   removeStarred(id: number): void
   toggleStarred(id: number): void
-  currentMarkerId: number
-  setCurrentMarkerId(id: number): void
+  currentContentSlug: string
+  setCurrentContentSlug(slug: string): void
   showSidebar: boolean
   setShowSidebar(arg0: boolean): void
 }
@@ -18,7 +20,7 @@ interface DataContext {
 const DataContext = createContext({} as DataContext)
 const DataProvider = (props: { children: React.ReactNode }) => {
   const [starIds, setStarIds] = useState<number[]>([])
-  const [currentMarkerId, setCurrentMarkerId] = useState<number>(-1)
+  const [currentContentSlug, setCurrentContentSlug] = useState<string>("")
   const [showSidebar, setShowSidebar] = useState(false)
 
   useEffect(() => {
@@ -78,8 +80,8 @@ const DataProvider = (props: { children: React.ReactNode }) => {
         setStarred,
         removeStarred,
         toggleStarred,
-        currentMarkerId,
-        setCurrentMarkerId,
+        currentContentSlug,
+        setCurrentContentSlug,
         showSidebar,
         setShowSidebar
       }}>

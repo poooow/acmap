@@ -14,7 +14,7 @@ export default function Map() {
 
   var markerIcon = (id: number, title: string) => new DivIcon({
     className: `marker-icon`,
-    html: `<div class="marker-image-container${isStarred(id) ? ' starred' : ""}${id === currentMarker.getId() ? " current" : ""}">
+    html: `<div class="marker-image-container${isStarred(id) ? ' starred' : ""}${id === Number(currentMarker.getSlug()) ? " current" : ""}">
              <div class="star"></div>
              <img class="marker-image" src="/images/markers/${id}.jpg"/>
            </div>
@@ -33,7 +33,7 @@ export default function Map() {
   function MapClickComponent() {
     useMapEvents({
       click: () => {
-        currentMarker.setId(-1)
+        currentMarker.setSlug("my-list")
       }
     })
     return null
@@ -44,7 +44,7 @@ export default function Map() {
     if (e.originalEvent.target.classList.contains("star")) {
       toggleStarred(markerId)
     } else {
-      currentMarker.setId(markerId)
+      currentMarker.setSlug(markerId.toString())
       setShowSidebar(true)
     }
   }

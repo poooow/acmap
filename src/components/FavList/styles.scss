@@ -3,6 +3,10 @@ ul {
   margin-right: 1rem;
 
   li {
+    &.empty-list {
+      color: #777777;
+    }
+
     h2 {
       display: flex;
       align-items: center;

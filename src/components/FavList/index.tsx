@@ -11,9 +11,19 @@ export default function FavList() {
     <>
       <h1>My List</h1>
       <ul>
+        {!starIds.length &&
+          <li className="empty-list">Use{" "}
+            <Image src="/images/icons/star-starred.svg"
+              title="Star"
+              alt="Star"
+              width={15}
+              height={15} />
+              {" "}to add place
+          </li>
+        }
         {starIds.map((id) => (
           <li key={`fav-${id}`}>
-            <h2 onClick={() => currentMarker.setId(id)}>
+            <h2 onClick={() => currentMarker.setSlug(id.toString())}>
               <Image src={`/images/markers/${id}.jpg`} alt={markers[id].name} width={50} height={50} />
               {markers[id].name}
             </h2>
