@@ -6,8 +6,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ACMap",
-  description: "",
+  title: "World Travel Map",
+  description: "Interactive travel map & wishlist builder. Explore places, create your travel list & plan your dream trip",
 }
 
 export default function RootLayout({

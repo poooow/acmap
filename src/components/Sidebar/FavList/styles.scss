@@ -1,0 +1,28 @@
+ul {
+  list-style-type: none;
+  margin-right: 1rem;
+
+  li {
+    &.empty-list {
+      color: #777777;
+    }
+
+    h2 {
+      display: flex;
+      align-items: center;
+      margin: 1.5rem 0 1rem 0;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      img {
+        margin: 0 1rem 0 2px;
+        border-radius: 50%;
+        border: 2px solid #ffffff;
+        outline: 2px solid #777777;
+      }
+    }
+  }
+}

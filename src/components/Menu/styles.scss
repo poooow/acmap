@@ -1,0 +1,47 @@
+.menu {
+  z-index: 999;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #000000;
+  font-size: 12px;
+  padding: 5px;
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    color: #287abd;
+
+    path {
+      fill: #287abd;
+    }
+
+    .menu-list {
+      display: flex;
+    }
+  }
+
+  svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .menu-list {
+    display: none;
+    margin-bottom: 15px;
+
+    &:hover {
+      display: flex;
+    }
+
+    ul {
+      margin-right: 0;
+    }
+  }
+
+  .menu-button {
+    display: flex;
+  }
+}

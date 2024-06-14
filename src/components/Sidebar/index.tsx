@@ -2,12 +2,12 @@
 import Image from "next/image"
 import markers from "../../content/markers.json"
 import { useDataContext } from '../../context/Data'
-import FavList from "../FavList"
+import FavList from "./FavList"
 import "./styles.scss"
 import useCurrentMarker from "@/hooks/useCurrentMarker"
 import isNumeric from "@/helpers/isNumeric"
 import { MouseEvent } from "react"
-import Home from "../Home"
+import About from "./About"
 
 export default function Sidebar() {
   const { toggleStarred, isStarred, showSidebar, setShowSidebar } = useDataContext()
@@ -24,9 +24,8 @@ export default function Sidebar() {
   const slugNum = isNumeric(currentMarker.getSlug()) ? Number(currentMarker.getSlug()) : -1
 
   return (
-    <div className={`sidebar ${showSidebar && 'show'}`}>
+    <div className={`sidebar${showSidebar ? ' show' : ''}`}>
       <div className="sidebar-container">
-        {currentMarker.getSlug() === "." || currentMarker.getSlug() === "" && <Home />}
         {currentMarker.getSlug() === "my-list" && <FavList />}
         {slugNum >= 0 &&
           <>
@@ -48,6 +47,7 @@ export default function Sidebar() {
             <p>{markers[slugNum].description}</p>
           </>
         }
+        {currentMarker.getSlug() === "about" && <About />}
         <div className="close-button" onClick={() => setShowSidebar(!showSidebar)}>
           {showSidebar ? '▷' : '◁'}
         </div>

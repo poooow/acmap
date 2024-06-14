@@ -1,6 +1,6 @@
-import { useDataContext } from '../../context/Data'
+import { useDataContext } from '../../../context/Data'
 import Image from "next/image"
-import markers from "../../content/markers.json"
+import markers from "../../../content/markers.json"
 import "./styles.scss"
 import useCurrentMarker from '@/hooks/useCurrentMarker'
 export default function FavList() {
