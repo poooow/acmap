@@ -20,7 +20,7 @@ interface DataContext {
 const DataContext = createContext({} as DataContext)
 const DataProvider = (props: { children: React.ReactNode }) => {
   const [starIds, setStarIds] = useState<string[]>([])
-  const [currentContentSlug, setCurrentContentSlug] = useState<string>("")
+  const [currentContentSlug, setCurrentContentSlug] = useState<string>("about")
   const [showSidebar, setShowSidebar] = useState(false)
 
   useEffect(() => {
