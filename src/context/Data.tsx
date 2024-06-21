@@ -5,12 +5,12 @@ import { useEffect, useState, createContext, useContext } from 'react'
 const STAR_IDS_KEY = 'starIds'
 
 interface DataContext {
-  starIds: number[]
-  setStarIds(ids: number[]): void
-  isStarred(id: number): boolean
-  setStarred(id: number): void
-  removeStarred(id: number): void
-  toggleStarred(id: number): void
+  starIds: string[]
+  setStarIds(ids: string[]): void
+  isStarred(id: string): boolean
+  setStarred(id: string): void
+  removeStarred(id: string): void
+  toggleStarred(id: string): void
   currentContentSlug: string
   setCurrentContentSlug(slug: string): void
   showSidebar: boolean
@@ -19,7 +19,7 @@ interface DataContext {
 
 const DataContext = createContext({} as DataContext)
 const DataProvider = (props: { children: React.ReactNode }) => {
-  const [starIds, setStarIds] = useState<number[]>([])
+  const [starIds, setStarIds] = useState<string[]>([])
   const [currentContentSlug, setCurrentContentSlug] = useState<string>("")
   const [showSidebar, setShowSidebar] = useState(false)
 
@@ -42,16 +42,16 @@ const DataProvider = (props: { children: React.ReactNode }) => {
     return data !== null ? JSON.parse(data) : starIds
   }
 
-  const saveStarIds = (starIds: number[]) => {
+  const saveStarIds = (starIds: string[]) => {
     window.localStorage.setItem(STAR_IDS_KEY, JSON.stringify(starIds))
     setStarIds(starIds)
   }
 
-  const isStarred = (id: number) => {
+  const isStarred = (id: string) => {
     return starIds.includes(id)
   }
 
-  const setStarred = (id: number) => {
+  const setStarred = (id: string) => {
     const index = starIds.indexOf(id)
 
     if (index === -1) {
@@ -59,11 +59,11 @@ const DataProvider = (props: { children: React.ReactNode }) => {
     }
   }
 
-  const removeStarred = (id: number) => {
+  const removeStarred = (id: string) => {
     setStarIds(starIds.filter(e => e !== id))
   }
 
-  const toggleStarred = (id: number) => {
+  const toggleStarred = (id: string) => {
     if (!isStarred(id)) {
       setStarred(id)
     } else {

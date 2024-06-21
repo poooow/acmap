@@ -1,0 +1,242 @@
+[
+  {
+    "id": "0",
+    "geocode": [50.0755, 14.4378],
+    "name": "Prague Castle",
+    "description": {
+      "short": "A historic castle complex.",
+      "long": "Prague Castle is a historic castle complex in Prague, dating back to the 9th century. It is the official office of the President of the Czech Republic and is considered the largest ancient castle in the world. The castle has been a seat of power for kings of Bohemia, Holy Roman emperors, and presidents of Czechoslovakia. Its varied architectural styles, extensive gardens, and historical significance make it a top tourist destination. Visitors can explore the Old Royal Palace, St. Vitus Cathedral, and the picturesque Golden Lane among many other attractions within the castle grounds."
+    },
+    "image": {
+      "url": "0.jpg",
+      "alt": "Prague Castle",
+      "license": "CC BY-SA 3.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Prague_Castle"
+      },
+      {
+        "domain": "hrad.cz",
+        "url": "https://www.hrad.cz/en/prague-castle-for-visitors"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "geocode": [48.8574, 16.0488],
+    "name": "Lednice-Valtice Cultural Landscape",
+    "description": {
+      "short": "A cultural-natural landscape.",
+      "long": "The Lednice-Valtice Cultural Landscape is a cultural-natural landscape complex in the South Moravian Region, notable for its unique combination of architecture and nature. It covers an area of 283.09 square kilometers and is one of the largest artificial landscapes in Europe. The area includes the Lednice and Valtice châteaux, several follies, vast gardens, parks, and ponds. It is recognized as a UNESCO World Heritage Site for its outstanding universal value. The landscape offers a variety of activities including walking, cycling, and sightseeing of the stunning neo-Gothic and Baroque architecture."
+    },
+    "image": {
+      "url": "1.jpg",
+      "alt": "Lednice-Valtice Cultural Landscape",
+      "license": "CC BY-SA 3.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Lednice%E2%80%93Valtice_Cultural_Landscape"
+      },
+      {
+        "domain": "lednicko-valticky-areal.cz",
+        "url": "https://www.lednicko-valticky-areal.cz/en/"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "geocode": [49.207, 16.6014],
+    "name": "Špilberk Castle",
+    "description": {
+      "short": "A historic castle in Brno.",
+      "long": "Špilberk Castle is a castle in Brno, originally built in the 13th century and later transformed into a royal castle and fortress. It was once known as the 'Jail of Nations' for its use as a prison for political prisoners during the Austro-Hungarian Empire. The castle has been thoroughly restored and now houses the Brno City Museum, featuring exhibits on the history of the city and the castle itself. Visitors can explore its dungeons, casemates, and the panoramic views from the castle tower. It is a symbol of Brno's rich history and resilience."
+    },
+    "image": {
+      "url": "2.jpg",
+      "alt": "Špilberk Castle",
+      "license": "CC BY-SA 3.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/%C5%A0pilberk_Castle"
+      },
+      {
+        "domain": "spilberk.cz",
+        "url": "https://www.spilberk.cz/en/"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "geocode": [50.0865, 14.4208],
+    "name": "Charles Bridge",
+    "description": {
+      "short": "A historic bridge in Prague.",
+      "long": "Charles Bridge is a historic bridge that crosses the Vltava river in Prague. Its construction started in 1357 under King Charles IV and was completed in the early 15th century. The bridge is adorned with 30 baroque-style statues of saints, and it serves as a pedestrian-only walkway that connects the Old Town with the Lesser Town. Charles Bridge is one of Prague's most visited landmarks, offering stunning views of the Prague Castle and the Vltava River. Street artists, musicians, and vendors often line the bridge, creating a lively and vibrant atmosphere for visitors."
+    },
+    "image": {
+      "url": "3.jpg",
+      "alt": "Charles Bridge",
+      "license": "CC BY-SA 3.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Charles_Bridge"
+      },
+      {
+        "domain": "prague.eu",
+        "url": "https://www.prague.eu/en/object/places/93/charles-bridge"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "geocode": [50.0848, 14.4112],
+    "name": "Old Town Square",
+    "description": {
+      "short": "A historic square in Prague.",
+      "long": "Old Town Square is the historic center of Prague, featuring various architectural styles such as the Gothic Church of Our Lady before Týn and the Baroque St. Nicholas Church. The square has been a witness to many significant historical events and is surrounded by colorful houses and buildings with a mix of Romanesque, Gothic, and Baroque styles. One of the main attractions in the square is the Prague Astronomical Clock, installed in 1410, which is the oldest operating clock of its kind in the world. The square is a vibrant hub for tourists, with numerous cafes, restaurants, and shops."
+    },
+    "image": {
+      "url": "4.jpg",
+      "alt": "Old Town Square",
+      "license": "CC BY-SA 3.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Old_Town_Square_(Prague)"
+      },
+      {
+        "domain": "prague.eu",
+        "url": "https://www.prague.eu/en/object/places/158/old-town-square-staromestske-namesti"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "geocode": [49.9427, 14.2757],
+    "name": "Karlštejn Castle",
+    "description": {
+      "short": "A large Gothic castle.",
+      "long": "Karlštejn Castle is a large Gothic castle founded in 1348 by Charles IV, Holy Roman Emperor-elect and King of Bohemia. The castle was originally built to safeguard the Imperial Regalia and other royal treasures, including holy relics. It is situated atop a hill and offers stunning views of the surrounding countryside. The castle features a complex of buildings with richly decorated interiors, including the Chapel of the Holy Cross, which is adorned with semi-precious stones and gold. Karlštejn Castle is one of the most visited and iconic castles in the Czech Republic."
+    },
+    "image": {
+      "url": "5.jpg",
+      "alt": "Karlštejn Castle",
+      "license": "CC BY-SA 3.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Karl%C5%A1tejn"
+      },
+      {
+        "domain": "hradkarlstejn.cz",
+        "url": "https://www.hradkarlstejn.cz/en"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "geocode": [50.4715, 15.3298],
+    "name": "Bohemian Paradise",
+    "description": {
+      "short": "A protected landscape area.",
+      "long": "Bohemian Paradise is a protected landscape area in the Czech Republic, known for its unique rock formations, castles, and picturesque countryside. It was declared the first nature reserve in the country in 1955. The area is a haven for outdoor enthusiasts, offering numerous trails for hiking and cycling. Iconic sites within Bohemian Paradise include the rock towns of Prachov Rocks, the Hrubá Skála rock city, and the ruins of Trosky Castle. The landscape is also dotted with traditional Czech villages, making it a great destination for cultural as well as natural exploration."
+    },
+    "image": {
+      "url": "6.jpg",
+      "alt": "Bohemian Paradise",
+      "license": "CC BY-SA 3.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Bohemian_Paradise"
+      },
+      {
+        "domain": "cesky-raj.info",
+        "url": "https://www.cesky-raj.info/en/"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "geocode": [50.233, 12.8718],
+    "name": "Karlovy Vary",
+    "description": {
+      "short": "A famous spa town.",
+      "long": "Karlovy Vary is a spa town in the Czech Republic, renowned for its hot springs and impressive architecture. It has been a popular tourist destination for centuries, attracting visitors with its therapeutic waters. The town features numerous colonnades, the most famous being the Mill Colonnade and the Market Colonnade, where visitors can sample the mineral-rich waters. Karlovy Vary is also known for its international film festival, luxury spa treatments, and the Becherovka herbal liqueur. The town's charming streets, elegant buildings, and lush parks create a unique and relaxing atmosphere."
+    },
+    "image": {
+      "url": "7.jpg",
+      "alt": "Karlovy Vary",
+      "license": "CC BY-SA 3.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Karlovy_Vary"
+      },
+      {
+        "domain": "karlovyvary.cz",
+        "url": "https://www.karlovyvary.cz/en"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "geocode": [50.7374, 15.174],
+    "name": "Sněžka",
+    "description": {
+      "short": "The highest mountain in the Czech Republic.",
+      "long": "Sněžka is the highest mountain in the Czech Republic, located on the border with Poland. It stands at 1,603 meters (5,259 feet) and offers stunning views of the surrounding region. The mountain is a popular destination for hikers, with several trails leading to its summit, including a cable car for those who prefer an easier ascent. Sněžka is part of the Krkonoše National Park, which is home to diverse flora and fauna. The mountain's unique alpine environment and the panoramic vistas make it a must-visit for nature lovers and outdoor enthusiasts."
+    },
+    "image": {
+      "url": "8.jpg",
+      "alt": "Sněžka",
+      "license": "CC BY-SA 3.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Sn%C4%9B%C5%BEka"
+      },
+      {
+        "domain": "ceskehory.cz",
+        "url": "https://www.ceskehory.cz/krkonose/snezka/en.html"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "geocode": [49.7429, 13.3732],
+    "name": "Pilsen",
+    "description": {
+      "short": "A city known for its beer.",
+      "long": "Pilsen, also known as Plzeň, is a city in the Czech Republic famous for its Pilsner beer, historic architecture, and cultural attractions. Founded in 1295, the city boasts a rich history and is home to the world-renowned Pilsner Urquell Brewery, where visitors can tour the facilities and sample the beer. The city's Old Town features Gothic and Renaissance buildings, including St. Bartholomew's Cathedral and the Great Synagogue, which is the second largest in Europe. Pilsen also offers vibrant cultural experiences with its museums, theaters, and annual festivals celebrating everything from beer to music."
+    },
+    "image": {
+      "url": "9.jpg",
+      "alt": "Pilsen",
+      "license": "CC BY-SA 3.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Plze%C5%88"
+      },
+      {
+        "domain": "pilsen.eu",
+        "url": "https://www.pilsen.eu/tourist"
+      }
+    ]
+  }
+]

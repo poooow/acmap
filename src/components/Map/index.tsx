@@ -2,7 +2,7 @@
 import { MapContainer, Marker, TileLayer, useMapEvents } from "react-leaflet"
 import { DivIcon, LeafletMouseEvent } from "leaflet"
 import MarkerClusterGroup from "react-leaflet-cluster"
-import markers from "../../content/markers.json"
+import markers from "../../content/markers"
 import { useDataContext } from '../../context/Data'
 import "leaflet/dist/leaflet.css"
 import "./styles.scss"
@@ -12,11 +12,11 @@ export default function Map() {
   const currentMarker = useCurrentMarker()
   const { isStarred, toggleStarred, setShowSidebar } = useDataContext()
 
-  var markerIcon = (id: number, title: string) => new DivIcon({
+  var markerIcon = (textId: string, title: string, url: string) => new DivIcon({
     className: `marker-icon`,
-    html: `<div class="marker-image-container${isStarred(id) ? ' starred' : ""}${id === Number(currentMarker.getSlug()) ? " current" : ""}">
+    html: `<div class="marker-image-container${isStarred(textId) ? ' starred' : ""}${textId === currentMarker.getSlug() ? " current" : ""}">
              <div class="star"></div>
-             <img class="marker-image" src="/images/markers/${id}.jpg"/>
+             <img class="marker-image" src="/images/markers/${url}"/>
            </div>
            <div class="marker-title">${title}</div>`,
   })
@@ -39,7 +39,7 @@ export default function Map() {
     return null
   }
 
-  const handleMarkerClick = (e: LeafletMouseEvent, markerId: number) => {
+  const handleMarkerClick = (e: LeafletMouseEvent, markerId: string) => {
     //@ts-ignore
     if (e.originalEvent.target.classList.contains("star")) {
       toggleStarred(markerId)
@@ -68,7 +68,7 @@ export default function Map() {
         {markers.map((marker) => (
           //@ts-ignore
           <Marker position={marker.geocode}
-            icon={markerIcon(marker.id, marker.name)}
+            icon={markerIcon(marker.id, marker.name, marker.image.url)}
             key={marker.id}
             eventHandlers={{
               click: (e) => handleMarkerClick(e, marker.id)

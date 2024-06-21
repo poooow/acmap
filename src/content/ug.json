@@ -1,0 +1,118 @@
+[
+  {
+    "id": "0",
+    "geocode": [0.3476, 32.5825],
+    "name": "Murchison Falls National Park",
+    "description": {
+      "short": "A national park known for its wildlife and waterfalls.",
+      "long": "Murchison Falls National Park is Uganda's largest national park, located in the northwestern part of the country. It is named after the Murchison Falls, where the Nile River squeezes through a narrow gorge and plunges into a powerful waterfall. The park is home to diverse wildlife, including elephants, giraffes, lions, and hippos. Visitors can enjoy game drives, boat cruises along the Nile River, and hikes to the top of the falls for breathtaking views."
+    },
+    "image": {
+      "url": "0.jpg",
+      "alt": "Murchison Falls National Park",
+      "license": "CC BY-SA 3.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Murchison_Falls_National_Park"
+      },
+      {
+        "domain": "ugandawildlife.org",
+        "url": "https://www.ugandawildlife.org/"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "geocode": [0.899, 34.079],
+    "name": "Bwindi Impenetrable Forest",
+    "description": {
+      "short": "A UNESCO World Heritage site famous for mountain gorilla trekking.",
+      "long": "Bwindi Impenetrable Forest is a UNESCO World Heritage site located in southwestern Uganda. It is known for its dense forest cover and is one of the last remaining habitats of the endangered mountain gorillas. Visitors to Bwindi can participate in gorilla trekking experiences, where trained guides lead small groups through the forest to observe these majestic creatures in their natural habitat. The park is also home to other primates, birds, and unique plant species."
+    },
+    "image": {
+      "url": "1.jpg",
+      "alt": "Bwindi Impenetrable Forest",
+      "license": "CC BY-SA 3.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Bwindi_Impenetrable_National_Park"
+      },
+      {
+        "domain": "ugandawildlife.org",
+        "url": "https://www.ugandawildlife.org/"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "geocode": [0.4044, 32.2656],
+    "name": "Queen Elizabeth National Park",
+    "description": {
+      "short": "A diverse national park with savannah and wetlands.",
+      "long": "Queen Elizabeth National Park is one of Uganda's most popular national parks, located in the southwestern part of the country. It is known for its diverse ecosystems, including savannah grasslands, dense forests, and wetlands. The park is home to a wide variety of wildlife, such as elephants, lions, leopards, hippos, and over 600 bird species. Visitors can enjoy game drives, boat cruises on the Kazinga Channel, and chimpanzee tracking in the Kyambura Gorge."
+    },
+    "image": {
+      "url": "2.jpg",
+      "alt": "Queen Elizabeth National Park",
+      "license": "CC BY-SA 3.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Queen_Elizabeth_National_Park"
+      },
+      {
+        "domain": "ugandawildlife.org",
+        "url": "https://www.ugandawildlife.org/"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "geocode": [0.6833, 30.8344],
+    "name": "Rwenzori Mountains National Park",
+    "description": {
+      "short": "A national park known for its mountain range and glaciers.",
+      "long": "Rwenzori Mountains National Park is located in western Uganda, along the border with the Democratic Republic of Congo. It is known for the Rwenzori mountain range, also known as the Mountains of the Moon, which includes the third-highest peak in Africa, Mount Stanley. The park is famous for its diverse flora and fauna, alpine landscapes, and glaciers. Visitors can trek through the mountains, explore the tropical rainforests, and encounter unique wildlife and bird species."
+    },
+    "image": {
+      "url": "3.jpg",
+      "alt": "Rwenzori Mountains National Park",
+      "license": "CC BY-SA 3.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Rwenzori_Mountains_National_Park"
+      },
+      {
+        "domain": "ugandawildlife.org",
+        "url": "https://www.ugandawildlife.org/"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "geocode": [0.0631, 32.4637],
+    "name": "Lake Victoria",
+    "description": {
+      "short": "The largest lake in Africa and a major tourist attraction.",
+      "long": "Lake Victoria is the largest lake in Africa and the largest tropical lake in the world, shared by Uganda, Kenya, and Tanzania. It is a major tourist attraction in Uganda, offering opportunities for fishing, boat cruises, and visits to the surrounding islands. The lake is rich in biodiversity, with numerous bird species, including the iconic African fish eagle. Local communities around the lake engage in fishing and agriculture, contributing to the region's cultural and economic significance."
+    },
+    "image": {
+      "url": "4.jpg",
+      "alt": "Lake Victoria",
+      "license": "CC BY-SA 3.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Lake_Victoria"
+      }
+    ]
+  }
+]

@@ -1,13 +1,14 @@
 "use client"
 import Image from "next/image"
-import markers from "../../content/markers.json"
+import markers from "../../content/markers"
 import { useDataContext } from '../../context/Data'
 import FavList from "./FavList"
 import "./styles.scss"
 import useCurrentMarker from "@/hooks/useCurrentMarker"
-import isNumeric from "@/helpers/isNumeric"
+import isMarkerTextId from "@/helpers/isMarkerTextId"
 import { MouseEvent } from "react"
 import About from "./About"
+import Markdown from 'react-markdown'
 
 export default function Sidebar() {
   const { toggleStarred, isStarred, showSidebar, setShowSidebar } = useDataContext()
@@ -21,30 +22,52 @@ export default function Sidebar() {
     currentMarker.setSlug("my-list")
   }
 
-  const slugNum = isNumeric(currentMarker.getSlug()) ? Number(currentMarker.getSlug()) : -1
+  const markerTextId = currentMarker.getSlug()
+  const currentMarkerContent = markers.find(marker => marker.id === markerTextId)
+  let showMarker = isMarkerTextId(markerTextId)
 
   return (
     <div className={`sidebar${showSidebar ? ' show' : ''}`}>
       <div className="sidebar-container">
         {currentMarker.getSlug() === "my-list" && <FavList />}
-        {slugNum >= 0 &&
+        {showMarker && currentMarkerContent &&
           <>
-            <div className={`star${isStarred(slugNum) ? ' starred' : ''}`}>
-              <Image src={isStarred(slugNum) ? starChecked : starDefault}
+            <div className={`star${isStarred(markerTextId) ? ' starred' : ''}`}>
+              <Image src={isStarred(markerTextId) ? starChecked : starDefault}
                 title="Add to my list"
                 alt="Add to my list"
                 width={40}
                 height={40}
-                onClick={() => toggleStarred(slugNum)} />
+                onClick={() => toggleStarred(markerTextId)} />
               <div className="link"><a href="" onClick={(e) => showList(e)}>My list</a></div>
             </div>
-            <Image src={`/images/markers/${slugNum}.jpg`}
+            <Image src={`/images/markers/${currentMarkerContent.image.url}`}
               className="sidebar-image"
-              alt={markers[slugNum].name}
+              alt={currentMarkerContent.image.alt}
               width={150}
               height={150} />
-            <h1>{markers[slugNum].name}</h1>
-            <p>{markers[slugNum].description}</p>
+            <h1>{currentMarkerContent.name}</h1>
+            <Markdown>{currentMarkerContent.description.short}</Markdown>
+            <Markdown>{currentMarkerContent.description.long}</Markdown>
+            <h3>Resources</h3>
+            <ul>
+              {currentMarkerContent.resourceLinks.map((link, index) => (
+                <li key={index}><a href={link.url} target="_blank">{link.domain}</a></li>
+              ))}
+            </ul>
+            <h3>Map</h3>
+            <ul>
+              <li>
+                <a href={`https://www.google.com/maps/search/?api=1&query=${currentMarkerContent.geocode[0]}%2C${currentMarkerContent.geocode[1]}`} target="_blank">
+                  Google maps ↗
+                </a>
+              </li>
+              <li>
+                <a href={`http://www.openstreetmap.org/?mlat=${currentMarkerContent.geocode[0]}&mlon=${currentMarkerContent.geocode[1]}&zoom=12`} target="_blank">
+                  Open street map ↗
+                </a>
+              </li>
+            </ul>
           </>
         }
         {currentMarker.getSlug() === "about" && <About />}

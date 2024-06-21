@@ -1,11 +1,30 @@
 import { useDataContext } from '../../../context/Data'
 import Image from "next/image"
-import markers from "../../../content/markers.json"
+import markers from "../../../content/markers"
 import "./styles.scss"
 import useCurrentMarker from '@/hooks/useCurrentMarker'
+
 export default function FavList() {
   const { starIds } = useDataContext()
   const currentMarker = useCurrentMarker()
+
+  const FavPlace = (props: { starId: string }) => {
+    const { starId } = props
+
+    const currentMarkerContent = markers.find(marker => marker.id === starId)
+
+    if (currentMarkerContent == undefined) return <></>
+
+    return (
+      <li key={`fav-${starId}`}>
+        <h2 onClick={() => currentMarker.setSlug(starId)}>
+          <Image src={`/images/markers/${currentMarkerContent.image.url}`} alt={currentMarkerContent.name} width={50} height={50} />
+          {currentMarkerContent.name}
+        </h2>
+        <p>{currentMarkerContent.description.short}</p>
+      </li>
+    )
+  }
 
   return (
     <>
@@ -18,18 +37,10 @@ export default function FavList() {
               alt="Star"
               width={15}
               height={15} />
-              {" "}to add place
+            {" "}to add place
           </li>
         }
-        {starIds.map((id) => (
-          <li key={`fav-${id}`}>
-            <h2 onClick={() => currentMarker.setSlug(id.toString())}>
-              <Image src={`/images/markers/${id}.jpg`} alt={markers[id].name} width={50} height={50} />
-              {markers[id].name}
-            </h2>
-            <p>{markers[id].description}</p>
-          </li>
-        ))}
+        {starIds.map((id) => <FavPlace starId={id} key={id} />)}
       </ul>
     </>
   )
