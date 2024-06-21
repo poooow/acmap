@@ -29,45 +29,5 @@
   .sidebar-container {
     overflow-y: scroll;
     height: 100%;
-
-    .star {
-      position: absolute;
-      right: 2rem;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      cursor: pointer;
-
-      &:not(.starred) img {
-        &:hover {
-          fill: #fff;
-          content: url("/images/icons/star-filled.svg");
-        }
-      }
-
-      .link a {
-        font-size: 14px;
-      }
-    }
-
-    .sidebar-image {
-      margin: 4px;
-      border-radius: 50%;
-      border: 4px solid #ffffff;
-      outline: 4px solid #777777;
-    }
-
-    h1 {
-      padding: 1rem 0;
-    }
-
-    h3 {
-      font-size: 1rem;
-      margin: 1rem 0 0.5rem 0;
-    }
-
-    p {
-      margin-bottom: 1rem;
-    }
   }
 }
