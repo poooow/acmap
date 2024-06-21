@@ -59,6 +59,7 @@ export default function About() {
           </a>
         </li>
       </ul>
+      <div className="copyright">Image licence {currentMarkerContent.image.license}</div>
     </>
   )
 }
