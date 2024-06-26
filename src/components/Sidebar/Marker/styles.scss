@@ -13,8 +13,16 @@
     }
   }
 
-  .link a {
-    font-size: 14px;
+  button.link {
+    all: unset;
+
+    &:focus {
+      outline: revert;
+    }
+
+    a {
+      font-size: 14px;
+    }
   }
 }
 

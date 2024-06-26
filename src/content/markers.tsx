@@ -2,7 +2,7 @@ import cz from "./cz.json"
 import sk from "./sk.json"
 import ug from "./ug.json"
 
-type Markers = {
+export type Markers = {
   id: string
   geocode: number[]
   name: string

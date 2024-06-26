@@ -30,7 +30,7 @@ export default function About() {
           width={40}
           height={40}
           onClick={() => toggleStarred(markerTextId)} />
-        <div className="link"><a href="" onClick={(e) => showList(e)}>My list</a></div>
+        <button className="link"><a href="" onClick={(e) => showList(e)}>My list</a></button>
       </div>
       <Image src={`/images/markers/${currentMarkerContent.image.url}`}
         className="sidebar-image"

@@ -3,10 +3,21 @@ import Image from "next/image"
 import markers from "../../../content/markers"
 import "./styles.scss"
 import useCurrentMarker from '@/hooks/useCurrentMarker'
+import { generateGpx } from '@/helpers/generateGpx'
 
 export default function FavList() {
   const { starIds } = useDataContext()
   const currentMarker = useCurrentMarker()
+
+  const handleGpxClick = () => {
+    const gpxData = generateGpx(starIds, markers)
+    const blob = new Blob([gpxData], { type: 'text/gpx' })
+    const url = window.URL.createObjectURL(blob)
+    const link = document.createElement('a')
+    link.href = url
+    link.download = 'my-list.gpx'
+    link.click()
+  }
 
   const FavPlace = (props: { starId: string }) => {
     const { starId } = props
@@ -28,6 +39,7 @@ export default function FavList() {
 
   return (
     <>
+      <button className='gpx' onClick={handleGpxClick}>export GPX</button>
       <h1>My List</h1>
       <ul>
         {!starIds.length &&

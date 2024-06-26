@@ -1,3 +1,19 @@
+button.gpx {
+  all: unset;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 2rem;
+  font-size: 14px;
+  text-decoration: underline;
+  color: var(--blue);
+  cursor: pointer;
+
+  &:focus {
+    outline: revert;
+  }
+}
+
 ul {
   list-style-type: none;
   margin-right: 1rem;
