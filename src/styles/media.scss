@@ -1,0 +1,33 @@
+/* Media */
+
+@mixin devices($breakpoint) {
+  @if $breakpoint == desktopXl {
+      @media only screen and (min-width: 1280px) {
+          @content;
+      }
+  }
+
+  @if $breakpoint == desktop {
+      @media only screen and (min-width: 960px) {
+          @content;
+      }
+  }
+
+  @if $breakpoint == tablet {
+      @media only screen and (max-width: 959.9px) {
+          @content;
+      }
+  }
+
+  @if $breakpoint == tabletUp {
+      @media only screen and (min-width: 480px) {
+          @content;
+      }
+  }
+
+  @if $breakpoint == mobile {
+      @media only screen and (max-width: 479.9px) {
+          @content;
+      }
+  }
+}
