@@ -8,8 +8,8 @@ export   const generateGpx = (starIds: string[], markers: Markers) => {
 
   starredMarkers.forEach((starredMarker) => {
     const wpt = document.createElement('wpt')
-    wpt.setAttribute('lat', starredMarker.geocode[0].toString())
-    wpt.setAttribute('lon', starredMarker.geocode[1].toString())
+    wpt.setAttribute('lat', starredMarker.geocode.lat.toString())
+    wpt.setAttribute('lon', starredMarker.geocode.lon.toString())
     const name = document.createElement('name')
     name.innerText = starredMarker.name
     wpt.appendChild(name)

@@ -49,12 +49,12 @@ export default function About() {
       <h3>Map</h3>
       <ul>
         <li>
-          <a href={`https://www.google.com/maps/search/?api=1&query=${currentMarkerContent.geocode[0]}%2C${currentMarkerContent.geocode[1]}`} target="_blank">
+          <a href={`https://www.google.com/maps/search/?api=1&query=${currentMarkerContent.geocode.lat}%2C${currentMarkerContent.geocode.lon}`} target="_blank">
             Google maps ↗
           </a>
         </li>
         <li>
-          <a href={`http://www.openstreetmap.org/?mlat=${currentMarkerContent.geocode[0]}&mlon=${currentMarkerContent.geocode[1]}&zoom=12`} target="_blank">
+          <a href={`http://www.openstreetmap.org/?mlat=${currentMarkerContent.geocode.lat}&mlon=${currentMarkerContent.geocode.lon}&zoom=12`} target="_blank">
             Open street map ↗
           </a>
         </li>

@@ -4,7 +4,10 @@ import ug from "./ug.json"
 
 export type Markers = {
   id: string
-  geocode: number[]
+  geocode: {
+    lat: number
+    lon: number
+  }
   name: string
   description: {
     short: string
