@@ -1,14 +1,4 @@
-.close-button {
-  position: absolute;
-  left: -27px;
-  top: 50vh;
-  border-radius: 10px 0 0 10px;
-  padding: 20px 10px;
-  cursor: pointer;
-  box-shadow: -10px 0px 10px 0px rgba(0, 0, 0, 0.15);
-  z-index: -1;
-  background-color: #fff;
-}
+@import "@/styles/media.scss";
 
 .sidebar {
   padding: 2em;
@@ -20,7 +10,22 @@
   background-color: #fff;
   z-index: 999;
   box-shadow: -10px 0px 10px 0px rgba(0, 0, 0, 0.15);
-  transition: right 0.2s ease-in-out;
+  transition:
+    right 0.2s ease-in-out,
+    bottom 0.2s ease-in-out;
+
+  @include devices("tablet") {
+    top: unset;
+    bottom: -30rem;
+    right: 0;
+    width: 100vw;
+    height: 30rem;
+
+    &.show {
+      right: unset;
+      bottom: 0;
+    }
+  }
 
   &.show {
     right: 0;
@@ -29,5 +34,31 @@
   .sidebar-container {
     overflow-y: scroll;
     height: 100%;
+
+    .close-button {
+      position: absolute;
+      left: -27px;
+      top: 50vh;
+      border-radius: 10px 0 0 10px;
+      padding: 20px 10px;
+      cursor: pointer;
+      box-shadow: -10px 0px 10px 0px rgba(0, 0, 0, 0.15);
+      z-index: -1;
+      background-color: #fff;
+
+      @include devices("tablet") {
+        top: -40px;
+        left: calc(50vw - 33px);
+        transform: rotate(90deg);
+      }
+    }
+  }
+}
+
+@include devices("tablet") {
+  .leaflet-control-attribution {
+    position: fixed;
+    top: 0;
+    right: 0;
   }
 }
