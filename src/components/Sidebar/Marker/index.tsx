@@ -36,7 +36,8 @@ export default function About() {
         className="sidebar-image"
         alt={currentMarkerContent.image.alt}
         width={150}
-        height={150} />
+        height={150}
+      />
       <h1>{currentMarkerContent.name}</h1>
       <Markdown>{currentMarkerContent.description.short}</Markdown>
       <Markdown>{currentMarkerContent.description.long}</Markdown>
@@ -59,7 +60,7 @@ export default function About() {
           </a>
         </li>
       </ul>
-      <div className="copyright">Image licence {currentMarkerContent.image.license}</div>
+      <div className="copyright">Image licence: {currentMarkerContent.image.license}</div>
     </>
   )
 }

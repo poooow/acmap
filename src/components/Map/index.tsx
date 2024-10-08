@@ -12,7 +12,7 @@ export default function Map() {
   const currentMarker = useCurrentMarker()
   const { isStarred, toggleStarred, setShowSidebar } = useDataContext()
 
-  var markerIcon = (textId: string, title: string, url: string) => new DivIcon({
+  const markerIcon = (textId: string, title: string, url: string) => new DivIcon({
     className: `marker-icon`,
     html: `<div class="marker-image-container${isStarred(textId) ? ' starred' : ""}${textId === currentMarker.getSlug() ? " current" : ""}">
              <div class="star"></div>

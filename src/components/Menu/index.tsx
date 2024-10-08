@@ -1,4 +1,5 @@
 'use client'
+
 import useCurrentMarker from "@/hooks/useCurrentMarker"
 import HamburgerIcon from "../../assets/hamburgerIcon.jsx"
 import "./styles.scss"
