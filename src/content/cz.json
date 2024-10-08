@@ -2,23 +2,23 @@
   {
     "id": "0",
     "geocode": {
-      "lat": 50.0755,
-      "lon": 14.4378
+      "lat": 50.09032,
+      "lon": 14.399029
     },
-    "name": "Prague Castle",
+    "name": "Prague Castle (Pražský hrad)",
     "description": {
-      "short": "",
-      "long": ""
+      "short": "The largest ancient castle in the world, located in Prague.",
+      "long": "Prague Castle, dating back to the 9th century, is the largest ancient castle in the world and serves as the official residence of the President of the Czech Republic. It includes the Gothic St. Vitus Cathedral, museums, royal gardens, and beautiful architecture overlooking the city of Prague."
     },
     "image": {
       "url": "cz0.jpg",
-      "alt": "Prague Castle",
-      "license": "CC BY-SA 3.0"
+      "alt": "Prague Castle view from the city",
+      "license": "Creative Commons Zero, Public Domain Dedication"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Prague_Castle"
+        "domain": "prague.eu",
+        "url": "https://www.prague.eu/en/object/places/93/prague-castle-prazsky-hrad"
       },
       {
         "domain": "hrad.cz",
@@ -29,243 +29,270 @@
   {
     "id": "1",
     "geocode": {
-      "lat": 48.8582,
-      "lon": 17.1069
+      "lat": 50.086542,
+      "lon": 14.411327
     },
-    "name": "Lednice-Valtice Cultural Landscape",
+    "name": "Charles Bridge (Karlův most)",
     "description": {
-      "short": "",
-      "long": ""
+      "short": "A historic bridge connecting Prague's Old Town and Lesser Town.",
+      "long": "Charles Bridge, a stunning medieval stone bridge built in the 14th century under the reign of King Charles IV, is one of Prague's most iconic landmarks. It features 30 baroque statues of saints and offers breathtaking views of the Vltava River and the Prague skyline."
     },
     "image": {
       "url": "cz1.jpg",
-      "alt": "Lednice-Valtice Cultural Landscape",
-      "license": "CC BY-SA 3.0"
+      "alt": "Charles Bridge with its statues and view of the Vltava River",
+      "license": "Public domain"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Lednice%E2%80%93Valtice_Cultural_Landscape"
+        "domain": "prague.eu",
+        "url": "https://www.prague.eu/en/object/places/96/charles-bridge"
       },
       {
-        "domain": "lednice.cz",
-        "url": "https://www.lednice.cz/en/"
+        "domain": "karluvmost.cz",
+        "url": "https://www.karluvmost.cz/en/"
       }
     ]
   },
   {
     "id": "2",
     "geocode": {
-      "lat": 49.2117,
-      "lon": 16.6158
+      "lat": 50.087451,
+      "lon": 14.420671
     },
-    "name": "Špilberk Castle",
+    "name": "Old Town Square (Staroměstské náměstí)",
     "description": {
-      "short": "",
-      "long": ""
+      "short": "A historic square in the heart of Prague.",
+      "long": "Old Town Square is Prague's most famous public square, surrounded by stunning medieval architecture, including the Church of Our Lady before Týn and the world-famous Astronomical Clock. It's a popular place for tourists and locals to gather and explore Prague's rich history."
     },
     "image": {
       "url": "cz2.jpg",
-      "alt": "Špilberk Castle",
-      "license": "CC BY-SA 3.0"
+      "alt": "Old Town Square with Church of Our Lady before Týn",
+      "license": "Public domain"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/%C5%A0pilberk_Castle"
+        "domain": "prague.eu",
+        "url": "https://www.prague.eu/en/object/places/11/old-town-square"
       },
       {
-        "domain": "spilberk.cz",
-        "url": "https://www.spilberk.cz/en/"
+        "domain": "staromestkanamesti.cz",
+        "url": "https://www.staromestkanamesti.cz/"
       }
     ]
   },
   {
     "id": "3",
     "geocode": {
-      "lat": 50.0853,
-      "lon": 14.4049
+      "lat": 48.810347,
+      "lon": 14.315074
     },
-    "name": "Old Town Square",
+    "name": "Český Krumlov",
     "description": {
-      "short": "",
-      "long": ""
+      "short": "A picturesque town in South Bohemia, a UNESCO World Heritage site.",
+      "long": "Český Krumlov is a fairy-tale town with a magnificent castle overlooking the Vltava River. Its medieval architecture, charming narrow streets, and cultural attractions make it one of the Czech Republic’s most popular destinations. The town is also known for its lively arts scene and festivals."
     },
     "image": {
       "url": "cz3.jpg",
-      "alt": "Old Town Square",
-      "license": "CC BY-SA 3.0"
+      "alt": "Aerial view of Český Krumlov and its castle",
+      "license": "Public domain"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Old_Town_Square"
+        "domain": "ceskykrumlov.info",
+        "url": "https://www.ckrumlov.info/en/"
       },
       {
-        "domain": "prague.eu",
-        "url": "https://www.prague.eu/en/object/places/81/old-town-square"
+        "domain": "unesco.org",
+        "url": "https://whc.unesco.org/en/list/617"
       }
     ]
   },
   {
     "id": "4",
     "geocode": {
-      "lat": 48.8747,
-      "lon": 14.2858
+      "lat": 49.939399,
+      "lon": 14.188229
     },
-    "name": "Český Krumlov",
+    "name": "Karlštejn Castle",
     "description": {
-      "short": "",
-      "long": ""
+      "short": "A Gothic castle near Prague built by Charles IV.",
+      "long": "Karlštejn Castle is a majestic Gothic fortress located in the Central Bohemian Region, built in the 14th century by Charles IV to house royal treasures, including the imperial crown jewels. Its hilltop location offers stunning views and a glimpse into Czech medieval history."
     },
     "image": {
       "url": "cz4.jpg",
-      "alt": "Český Krumlov",
-      "license": "CC BY-SA 3.0"
+      "alt": "Karlštejn Castle on a hill",
+      "license": "Public domain"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Krumlov"
+        "domain": "karlstejn.cz",
+        "url": "https://www.hrad-karlstejn.cz/en"
       },
       {
-        "domain": "ckrumlov.info",
-        "url": "https://www.ckrumlov.info/en/"
+        "domain": "prague.eu",
+        "url": "https://www.prague.eu/en/object/places/143/karlstejn-castle"
       }
     ]
   },
   {
     "id": "5",
     "geocode": {
-      "lat": 49.0481,
-      "lon": 15.2833
+      "lat": 49.948077,
+      "lon": 15.268181
     },
-    "name": "Telč",
+    "name": "Kutná Hora (Bone Church)",
     "description": {
-      "short": "",
-      "long": ""
+      "short": "A medieval town with a famous ossuary decorated with human bones.",
+      "long": "Kutná Hora, once a silver mining hub, is now known for its impressive Gothic architecture and the eerie Sedlec Ossuary, a chapel decorated with the bones of over 40,000 people. The town’s St. Barbara’s Church and its old town are part of the UNESCO World Heritage list."
     },
     "image": {
       "url": "cz5.jpg",
-      "alt": "Telč",
-      "license": "CC BY-SA 3.0"
+      "alt": "Saint Barbara Kutna Hora",
+      "license": "Creative Commons Zero, Public Domain Dedication"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Tel%C4%8D"
+        "domain": "kutnahora.cz",
+        "url": "https://www.kutnahora.cz/en"
       },
       {
-        "domain": "telc.eu",
-        "url": "https://www.telc.eu/en/"
+        "domain": "unesco.org",
+        "url": "https://whc.unesco.org/en/list/732"
       }
     ]
   },
   {
     "id": "6",
     "geocode": {
-      "lat": 50.8911,
-      "lon": 14.3061
+      "lat": 50.21688,
+      "lon": 12.86442
     },
-    "name": "Bohemian Switzerland National Park",
+    "name": "Karlovy Vary (Carlsbad)",
     "description": {
-      "short": "",
-      "long": ""
+      "short": "A famous spa town known for its hot springs and colonnades.",
+      "long": "Karlovy Vary is a picturesque spa town in West Bohemia, famous for its hot springs, healing waters, and elegant colonnades. The town is also known for its international film festival and its rich cultural and architectural heritage."
     },
     "image": {
       "url": "cz6.jpg",
-      "alt": "Bohemian Switzerland National Park",
-      "license": "CC BY-SA 3.0"
+      "alt": "Karlovy Vary's famous colonnades and hot springs",
+      "license": "Public domain"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Bohemian_Switzerland"
+        "domain": "karlovyvary.cz",
+        "url": "https://www.karlovyvary.cz/en"
       },
       {
-        "domain": "ceskesvycarsko.cz",
-        "url": "https://www.ceskesvycarsko.cz/en"
+        "domain": "spas.cz",
+        "url": "https://www.spas.cz/en/karlovy-vary/"
       }
     ]
   },
   {
     "id": "7",
     "geocode": {
-      "lat": 50.5109,
-      "lon": 13.6349
+      "lat": 50.51325,
+      "lon": 14.16174
     },
-    "name": "Karlovy Vary",
+    "name": "Terezín (Theresienstadt)",
     "description": {
-      "short": "",
-      "long": ""
+      "short": "A historical fortress and former Nazi concentration camp.",
+      "long": "Terezín, originally a military fortress built in the late 18th century, became infamous as a Nazi concentration camp during World War II. Today, it serves as a memorial to the victims of the Holocaust and offers visitors a powerful and educational experience."
     },
     "image": {
       "url": "cz7.jpg",
-      "alt": "Karlovy Vary",
-      "license": "CC BY-SA 3.0"
+      "alt": "Terezín Memorial with historic fortress walls",
+      "license": "Public domain"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Karlovy_Vary"
+        "domain": "pamatnik-terezin.cz",
+        "url": "https://www.pamatnik-terezin.cz/en"
       },
       {
-        "domain": "karlovyvary.cz",
-        "url": "https://www.karlovyvary.cz/en"
+        "domain": "unesco.org",
+        "url": "https://whc.unesco.org/en/list/616"
       }
     ]
   },
   {
     "id": "8",
     "geocode": {
-      "lat": 50.3527,
-      "lon": 14.4744
+      "lat": 49.382098,
+      "lon": 16.76291
     },
-    "name": "Kutná Hora",
+    "name": "Moravian Karst (Moravský kras)",
     "description": {
-      "short": "",
-      "long": ""
+      "short": "A natural reserve with over 1,100 caves and the Macocha Abyss.",
+      "long": "The Moravian Karst is one of the most important karst landscapes in Central Europe, home to more than 1,100 caves, many of which are open to the public. The highlight is the Macocha Abyss, a deep sinkhole that offers stunning views and guided tours into the caves."
     },
     "image": {
       "url": "cz8.jpg",
-      "alt": "Kutná Hora",
-      "license": "CC BY-SA 3.0"
+      "alt": "Macocha Abyss in the Moravian Karst",
+      "license": "Creative Commons Zero, Public Domain Dedication"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Kutn%C3%A1_Hora"
+        "domain": "moravskykras.net",
+        "url": "https://www.moravskykras.net/en/"
       },
       {
-        "domain": "kh.cz",
-        "url": "https://www.kh.cz/en/"
+        "domain": "jeskynecr.cz",
+        "url": "https://www.caves.cz/en/cave/macocha-abyss"
       }
     ]
   },
   {
     "id": "9",
     "geocode": {
-      "lat": 50.1167,
-      "lon": 12.1333
+      "lat": 48.801626,
+      "lon": 16.805423
     },
-    "name": "Mariánské Lázně",
+    "name": "Lednicko-valtický areál",
     "description": {
-      "short": "",
-      "long": ""
+      "short": "A UNESCO World Heritage cultural landscape in South Moravia.",
+      "long": "Lednicko-valtický areál is a stunning cultural landscape in South Moravia, featuring magnificent palaces, ornamental gardens, and lakes. Built by the Liechtenstein family, it is one of the largest artificial landscapes in Europe, offering a mix of architecture, nature, and history."
     },
     "image": {
-      "url": "cz9.jpg",
-      "alt": "Mariánské Lázně",
-      "license": "CC BY-SA 3.0"
+      "url": "cz10.jpg",
+      "alt": "Lednice Palace and gardens in Lednicko-valtický areál",
+      "license": "Public domain"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Mari%C3%A1nsk%C3%A9_L%C3%A1zn%C4%9B"
+        "domain": "lednicko-valticky.cz",
+        "url": "https://www.lednicko-valticky.cz/en/"
       },
       {
-        "domain": "marianskelazne.cz",
-        "url": "https://www.marianskelazne.cz/en/"
+        "domain": "unesco.org",
+        "url": "https://whc.unesco.org/en/list/763"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "geocode": {
+      "lat": 49.819369,
+      "lon": 18.279351
+    },
+    "name": "Areál Dolní Vítkovice",
+    "description": {
+      "short": "A former industrial site turned cultural and educational center in Ostrava.",
+      "long": "Areál Dolní Vítkovice is a unique industrial heritage site in Ostrava, once home to coal mining and ironworks. Today, it has been transformed into a cultural, educational, and social hub, featuring museums, concert halls, and science centers while preserving its industrial character."
+    },
+    "image": {
+      "url": "cz10.jpg",
+      "alt": "Industrial structures in Areál Dolní Vítkovice, Ostrava",
+      "license": "Palickap, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
+    },
+    "resourceLinks": [
+      {
+        "domain": "dolnivitkovice.cz",
+        "url": "https://www.dolnivitkovice.cz/en/"
+      },
+      {
+        "domain": "ostrava.cz",
+        "url": "https://www.ostrava.cz/en/tourist-attractions/dolni-vitkovice"
       }
     ]
   }
