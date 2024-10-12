@@ -1,241 +1,271 @@
 [
   {
     "id": "0",
-    "geocode": [48.1417, 17.1006],
-    "name": "Bratislava Castle",
+    "geocode": {
+      "lat": 48.142222,
+      "lon": 17.1
+    },
+    "name": "Bratislava Castle (Bratislavský hrad)",
     "description": {
-      "short": "A historic castle in Bratislava.",
-      "long": "Bratislava Castle is a massive rectangular building with four corner towers located on a hill overlooking the Danube river. It has been a significant fortress for centuries, with its origins dating back to the 9th century. The castle was rebuilt in the 1950s and now houses the Slovak National Museum, offering exhibits on history, music, and more. The site also offers spectacular views of Bratislava, Austria, and Hungary, making it a popular spot for tourists."
+      "short": "A massive rectangular castle overlooking the Danube River in Bratislava.",
+      "long": "Bratislava Castle is an iconic symbol of Slovakia’s capital. Perched on a hill overlooking the Danube River, it has a rich history dating back to the Stone Age. The castle now houses museums, and its grounds offer panoramic views of the city and surrounding areas."
     },
     "image": {
-      "url": "10.jpg",
-      "alt": "Bratislava Castle",
-      "license": "CC BY-SA 3.0"
+      "url": "sk0.jpg",
+      "alt": "Bratislava Castle overlooking the Danube River",
+      "license": "Public domain"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Bratislava_Castle"
+        "domain": "bratislava.sk",
+        "url": "https://www.visitbratislava.com/places/bratislava-castle/"
       },
       {
-        "domain": "snm.sk",
-        "url": "https://www.snm.sk/?lang=eng&section=home&org=1"
+        "domain": "hrad.sk",
+        "url": "https://www.bratislava-hrad.sk/en/"
       }
     ]
   },
   {
     "id": "1",
-    "geocode": [49.4213, 20.2165],
-    "name": "High Tatras",
+    "geocode": {
+      "lat": 49.000555994602244,
+      "lon": 20.768332999999984
+    },
+    "name": "Spiš Castle (Spišský hrad)",
     "description": {
-      "short": "A mountain range in northern Slovakia.",
-      "long": "The High Tatras are the highest mountain range in Slovakia and the Carpathian Mountains, known for their stunning peaks, alpine scenery, and diverse wildlife. The range is a popular destination for hiking, skiing, and mountaineering, with well-marked trails leading to various peaks and mountain lakes. The highest peak, Gerlachovský štít, reaches 2,655 meters. The area is also home to several picturesque towns and villages, such as Štrbské Pleso and Tatranská Lomnica, which offer various accommodations and tourist services."
+      "short": "One of the largest castle ruins in Central Europe, located in eastern Slovakia.",
+      "long": "Spiš Castle is a UNESCO World Heritage site and one of the largest medieval castles in Central Europe. Its ruins sit on a hilltop, offering sweeping views of the surrounding countryside. The castle complex includes a museum detailing its history and archaeology."
     },
     "image": {
-      "url": "11.jpg",
-      "alt": "High Tatras",
-      "license": "CC BY-SA 3.0"
+      "url": "sk1.jpg",
+      "alt": "Ruins of Spiš Castle on a hilltop",
+      "license": "Public domain"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/High_Tatras"
+        "domain": "spisskyhrad.sk",
+        "url": "https://www.spisskyhrad.com/"
       },
       {
-        "domain": "vysoketatry.sk",
-        "url": "https://www.vysoketatry.sk/en.html"
+        "domain": "unesco.org",
+        "url": "https://whc.unesco.org/en/list/620"
       }
     ]
   },
   {
     "id": "2",
-    "geocode": [48.1083, 17.0997],
-    "name": "St. Martin's Cathedral",
+    "geocode": {
+      "lat": 49.166667,
+      "lon": 20.133333
+    },
+    "name": "High Tatras (Vysoké Tatry)",
     "description": {
-      "short": "A Gothic cathedral in Bratislava.",
-      "long": "St. Martin's Cathedral is the largest and one of the oldest churches in Bratislava, dating back to the 13th century. It served as the coronation church of the Kingdom of Hungary from the 16th to the 19th century. The cathedral features a stunning Gothic architecture, with a distinctive tower topped by a large golden replica of the Hungarian Crown. Inside, visitors can admire beautiful stained glass windows, historical artifacts, and the remains of the old city walls."
+      "short": "A majestic mountain range with stunning peaks, valleys, and lakes.",
+      "long": "The High Tatras are Slovakia’s highest mountain range, known for their dramatic peaks, deep valleys, and crystal-clear mountain lakes. Popular for hiking, skiing, and outdoor activities, the region is also home to rich flora and fauna, making it a top destination for nature lovers."
     },
     "image": {
-      "url": "12.jpg",
-      "alt": "St. Martin's Cathedral",
-      "license": "CC BY-SA 3.0"
+      "url": "sk2.jpg",
+      "alt": "Mountain peaks in the High Tatras",
+      "license": "Creative Commons Zero, Public Domain Dedication"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/St._Martin%27s_Cathedral,_Bratislava"
+        "domain": "vysoketatry.sk",
+        "url": "https://www.vysoketatry.sk/en/"
       },
       {
-        "domain": "dom.fara.sk",
-        "url": "http://dom.fara.sk/"
+        "domain": "tatry.sk",
+        "url": "https://www.tatry.sk/"
       }
     ]
   },
   {
     "id": "3",
-    "geocode": [48.9991, 21.2398],
-    "name": "Spiš Castle",
+    "geocode": {
+      "lat": 48.779963,
+      "lon": 18.577688
+    },
+    "name": "Bojnice Castle (Bojnický zámok)",
     "description": {
-      "short": "A large castle ruin in eastern Slovakia.",
-      "long": "Spiš Castle is one of the largest castle complexes in Central Europe, situated on a hill above the town of Spišské Podhradie. The castle dates back to the 12th century and has been a UNESCO World Heritage Site since 1993. It features Romanesque, Gothic, and Renaissance architecture, with an impressive fortress, a Romanesque palace, and a Gothic chapel. Visitors can explore the ruins, enjoy panoramic views of the surrounding countryside, and learn about the history of the castle and the region in the on-site museum."
+      "short": "A fairy-tale castle known for its romantic architecture and rich history.",
+      "long": "Bojnice Castle is one of the most beautiful and visited castles in Slovakia. With its romantic appearance, it resembles something from a fairy tale. The castle is known for its art collection, historic furnishings, and regular events, including a popular international ghost festival."
     },
     "image": {
-      "url": "13.jpg",
-      "alt": "Spiš Castle",
-      "license": "CC BY-SA 3.0"
+      "url": "sk3.jpg",
+      "alt": "Bojnice Castle with its fairy-tale architecture",
+      "license": "Public domain"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Spi%C5%A1_Castle"
+        "domain": "bojnicecastle.sk",
+        "url": "https://www.bojnicecastle.sk/"
       },
       {
-        "domain": "spisskyhrad.sk",
-        "url": "https://www.spisskyhrad.sk/en/"
+        "domain": "bojnice.sk",
+        "url": "https://www.bojnice.sk/"
       }
     ]
   },
   {
     "id": "4",
-    "geocode": [48.1452, 17.1042],
-    "name": "Old Town Hall",
+    "geocode": {
+      "lat": 48.173889,
+      "lon": 16.978056
+    },
+    "name": "Devin Castle (Devínsky hrad)",
     "description": {
-      "short": "A historic building complex in Bratislava.",
-      "long": "The Old Town Hall in Bratislava is a historic building complex that dates back to the 14th century. It has served various purposes over the centuries, including as a town hall, a prison, and a mint. Today, it houses the Bratislava City Museum, which features exhibits on the history of the city, medieval justice, and the town's fortifications. The building complex includes a Gothic tower offering panoramic views of the Old Town, a Renaissance courtyard, and various historical artifacts."
+      "short": "A historic castle ruin located at the confluence of the Danube and Morava rivers.",
+      "long": "Devin Castle, located near Bratislava, is a significant archaeological and historical site in Slovakia. Perched on a cliff above the Danube, it offers spectacular views and is known for its role in the early history of the Slovak people and as a symbol of Slovak independence."
     },
     "image": {
-      "url": "14.jpg",
-      "alt": "Old Town Hall",
-      "license": "CC BY-SA 3.0"
+      "url": "sk4.jpg",
+      "alt": "Ruins of Devin Castle",
+      "license": "Public domain"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Old_Town_Hall_(Bratislava)"
+        "domain": "bratislava.sk",
+        "url": "https://www.visitbratislava.com/places/devin-castle/"
       },
       {
-        "domain": "mmb.sk",
-        "url": "https://www.mmb.sk/en/old-town-hall"
+        "domain": "hrad-devin.sk",
+        "url": "https://www.hrad-devin.sk/"
       }
     ]
   },
   {
     "id": "5",
-    "geocode": [48.7384, 19.1462],
-    "name": "Banská Štiavnica",
+    "geocode": {
+      "lat": 48.998611,
+      "lon": 19.581944
+    },
+    "name": "Demänovská Cave of Liberty (Demänovská jaskyňa slobody)",
     "description": {
-      "short": "A historic town in central Slovakia.",
-      "long": "Banská Štiavnica is a picturesque town in central Slovakia that was a major center for mining and metallurgy in the Middle Ages. It is a UNESCO World Heritage Site, recognized for its well-preserved medieval and Renaissance architecture. The town's historic center features charming streets, beautiful churches, and colorful houses. Key attractions include the Holy Trinity Square, the Old Castle, and the New Castle. The town also offers educational exhibits on mining history and technology in the Slovak Mining Museum."
+      "short": "One of Slovakia's most beautiful caves, located in the Low Tatras.",
+      "long": "Demänovská Cave of Liberty is part of the Demänovská Valley cave system and is one of the most visited caves in Slovakia. The cave features stunning formations of stalactites, stalagmites, and underground lakes, making it a popular destination for nature enthusiasts."
     },
     "image": {
-      "url": "15.jpg",
-      "alt": "Banská Štiavnica",
-      "license": "CC BY-SA 3.0"
+      "url": "sk5.jpg",
+      "alt": "Stalactites and stalagmites in Demänovská Cave of Liberty",
+      "license": "Jojo Multi-license with GFDL and Creative Commons CC-BY-SA-2.5 and older versions (2.0 and 1.0)"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Bansk%C3%A1_%C5%A0tiavnica"
+        "domain": "slovakia.travel",
+        "url": "https://www.slovakia.travel/en/demanovska-cave-of-liberty"
       },
       {
-        "domain": "banskastiavnica.travel",
-        "url": "https://banskastiavnica.travel/en/"
+        "domain": "caves.sk",
+        "url": "https://www.ssj.sk/en/jaskyna/6-demanovska-cave-of-liberty"
       }
     ]
   },
   {
     "id": "6",
-    "geocode": [48.8966, 20.566],
-    "name": "Slovak Paradise National Park",
+    "geocode": {
+      "lat": 49.038889,
+      "lon": 19.278333
+    },
+    "name": "Vlkolínec",
     "description": {
-      "short": "A national park known for its canyons and waterfalls.",
-      "long": "Slovak Paradise National Park is a protected area in eastern Slovakia, known for its picturesque canyons, gorges, and waterfalls. The park offers numerous hiking trails that lead through scenic landscapes, including the popular Suchá Belá Gorge, which features ladders, bridges, and chains to aid hikers through its challenging terrain. The park is home to diverse flora and fauna, making it a paradise for nature lovers and outdoor enthusiasts. Visitors can also explore the Dobšinská Ice Cave, one of the largest ice caves in Europe."
+      "short": "A UNESCO World Heritage site and preserved folk village in the mountains.",
+      "long": "Vlkolínec is a small, well-preserved folk village in the heart of Slovakia, recognized by UNESCO for its traditional wooden architecture. The village, surrounded by the picturesque mountains of the Velká Fatra, offers visitors a glimpse into Slovakia’s rural past and cultural heritage."
     },
     "image": {
-      "url": "16.jpg",
-      "alt": "Slovak Paradise National Park",
-      "license": "CC BY-SA 3.0"
+      "url": "sk6.jpg",
+      "alt": "Traditional wooden houses in Vlkolínec",
+      "license": "Creative Commons Zero, Public Domain Dedication"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Slovak_Paradise"
+        "domain": "vlkolinec.sk",
+        "url": "https://www.vlkolinec.sk/en/"
       },
       {
-        "domain": "slovenskyraj.eu",
-        "url": "https://www.slovenskyraj.eu/en/"
+        "domain": "unesco.org",
+        "url": "https://whc.unesco.org/en/list/622"
       }
     ]
   },
   {
     "id": "7",
-    "geocode": [49.058, 20.2975],
-    "name": "Levoča",
+    "geocode": {
+      "lat": 48.916667,
+      "lon": 20.416667
+    },
+    "name": "Slovak Paradise National Park (Slovenský raj)",
     "description": {
-      "short": "A historic town with medieval architecture.",
-      "long": "Levoča is a historic town in eastern Slovakia, renowned for its well-preserved medieval architecture. The town is a UNESCO World Heritage Site, featuring a beautiful town square surrounded by Renaissance and Gothic buildings. Key attractions include the St. James Church, which houses the highest wooden altar in the world, crafted by Master Paul of Levoča. The town's medieval fortifications, the historic Town Hall, and the Cage of Shame are also popular sights. Levoča offers a glimpse into the rich history and cultural heritage of Slovakia."
+      "short": "A stunning national park known for its gorges, waterfalls, and hiking trails.",
+      "long": "Slovak Paradise is a national park famous for its rugged gorges, deep canyons, and dense forests. Popular among hikers and nature lovers, the park features well-marked trails, many of which include ladders and bridges to navigate the challenging terrain. It's a haven for outdoor enthusiasts."
     },
     "image": {
-      "url": "17.jpg",
-      "alt": "Levoča",
-      "license": "CC BY-SA 3.0"
+      "url": "sk7.jpg",
+      "alt": "Waterfalls and hiking trails in Slovak Paradise National Park",
+      "license": "Creative Commons Zero, Public Domain Dedication"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Levo%C4%8Da"
+        "domain": "slovenskyraj.sk",
+        "url": "https://www.slovenskyraj.sk/en/"
       },
       {
-        "domain": "levoca.sk",
-        "url": "https://www.levoca.sk/en/"
+        "domain": "slovakia.travel",
+        "url": "https://www.slovakia.travel/en/slovak-paradise-national-park"
       }
     ]
   },
   {
     "id": "8",
-    "geocode": [48.598, 21.596],
-    "name": "Košice",
+    "geocode": {
+      "lat": 49.261667,
+      "lon": 19.358056
+    },
+    "name": "Orava Castle (Oravský hrad)",
     "description": {
-      "short": "The second-largest city in Slovakia.",
-      "long": "Košice is the second-largest city in Slovakia, known for its rich history, vibrant culture, and beautiful architecture. The city's historic center is home to the St. Elisabeth Cathedral, the largest Gothic cathedral in Slovakia, as well as the East Slovak Museum and the State Theatre. Košice also features charming streets, squares, and parks, making it a great destination for exploring on foot. The city is a cultural hub, hosting numerous festivals, concerts, and events throughout the year."
+      "short": "A medieval castle located on a cliff above the Orava River.",
+      "long": "Orava Castle is one of the most well-preserved castles in Slovakia, standing on a high cliff overlooking the Orava River. It was built in the 13th century and has since been a key historical landmark, showcasing medieval architecture, art, and life through its museum exhibits."
     },
     "image": {
-      "url": "18.jpg",
-      "alt": "Košice",
-      "license": "CC BY-SA 3.0"
+      "url": "sk8.jpg",
+      "alt": "Orava Castle perched on a cliff",
+      "license": "Public domain"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Ko%C5%A1ice"
+        "domain": "oravamuzeum.sk",
+        "url": "https://www.oravamuzeum.sk/en/orava-castle/"
       },
       {
-        "domain": "visitkosice.org",
-        "url": "https://www.visitkosice.org/en"
+        "domain": "slovakia.travel",
+        "url": "https://www.slovakia.travel/en/orava-castle"
       }
     ]
   },
   {
     "id": "9",
-    "geocode": [48.1079, 17.0714],
-    "name": "Devin Castle",
+    "geocode": {
+      "lat": 48.458611,
+      "lon": 18.893056
+    },
+    "name": "Banská Štiavnica",
     "description": {
-      "short": "A historic castle ruin near Bratislava.",
-      "long": "Devin Castle is a historic castle ruin located on a cliff above the confluence of the Danube and Morava rivers, near Bratislava. The castle dates back to the 9th century and has a rich history, having been an important strategic fortification and a symbol of Slovak heritage. Visitors can explore the ruins, enjoy the scenic views of the rivers and surrounding landscape, and learn about the castle's history through exhibits in the on-site museum. Devin Castle is a popular destination for day trips from Bratislava."
+      "short": "A historic mining town and UNESCO World Heritage site.",
+      "long": "Banská Štiavnica is a picturesque medieval town, known for its mining history and charming architecture. The town was once a key center for silver mining in Europe, and its old town center, mining infrastructure, and beautiful surroundings are now protected as a UNESCO World Heritage site."
     },
     "image": {
-      "url": "19.jpg",
-      "alt": "Devin Castle",
-      "license": "CC BY-SA 3.0"
+      "url": "sk9.jpg",
+      "alt": "Historic center of Banská Štiavnica",
+      "license": "Creative Commons Zero, Public Domain Dedication"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Dev%C3%ADn_Castle"
+        "domain": "banskastiavnica.sk",
+        "url": "https://www.banskastiavnica.sk/"
       },
       {
-        "domain": "hrad-devin.sk",
-        "url": "https://www.hrad-devin.sk/en"
+        "domain": "unesco.org",
+        "url": "https://whc.unesco.org/en/list/618"
       }
     ]
   }
