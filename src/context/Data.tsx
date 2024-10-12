@@ -4,6 +4,8 @@ import { useEffect, useState, createContext, useContext } from 'react'
 
 const STAR_IDS_KEY = 'starIds'
 
+type SidebarSize = 'none' | 'small' | 'large'
+
 interface DataContext {
   starIds: string[]
   setStarIds(ids: string[]): void
@@ -13,15 +15,15 @@ interface DataContext {
   toggleStarred(id: string): void
   currentContentSlug: string
   setCurrentContentSlug(slug: string): void
-  showSidebar: boolean
-  setShowSidebar(arg0: boolean): void
+  sidebarSize: SidebarSize
+  setSidebarSize(arg0: SidebarSize): void
 }
 
 const DataContext = createContext({} as DataContext)
 const DataProvider = (props: { children: React.ReactNode }) => {
   const [starIds, setStarIds] = useState<string[]>([])
   const [currentContentSlug, setCurrentContentSlug] = useState<string>("about")
-  const [showSidebar, setShowSidebar] = useState(false)
+  const [sidebarSize, setSidebarSize] = useState<SidebarSize>('none')
 
   useEffect(() => {
     if (starIds.length) {
@@ -82,8 +84,8 @@ const DataProvider = (props: { children: React.ReactNode }) => {
         toggleStarred,
         currentContentSlug,
         setCurrentContentSlug,
-        showSidebar,
-        setShowSidebar
+        sidebarSize,
+        setSidebarSize
       }}>
       {props.children}
     </DataContext.Provider>

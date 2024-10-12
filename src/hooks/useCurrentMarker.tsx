@@ -3,7 +3,7 @@
 import { useDataContext } from "@/context/Data"
 
 export default function useCurrentMarker() {
-  const { currentContentSlug, setCurrentContentSlug, setShowSidebar } = useDataContext()
+  const { currentContentSlug, setCurrentContentSlug, setSidebarSize } = useDataContext()
 
   const getSlug = () => {
     return currentContentSlug
@@ -11,7 +11,7 @@ export default function useCurrentMarker() {
 
   const setSlug = (slug: string) => {
     setCurrentContentSlug(slug)
-    setShowSidebar(true)
+    setSidebarSize('small')
     window.history.replaceState(null, "", `/${slug}/`)
   }
 

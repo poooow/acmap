@@ -1,34 +1,52 @@
 @import "@/styles/media.scss";
 
 .sidebar {
-  padding: 2em;
   position: absolute;
-  right: -30rem;
   top: 0;
-  width: 30rem;
+  right: 0;
+  width: 0;
   height: 100vh;
   background-color: #fff;
   z-index: 999;
   box-shadow: -10px 0px 10px 0px rgba(0, 0, 0, 0.15);
-  transition:
-    right 0.2s ease-in-out,
-    bottom 0.2s ease-in-out;
+  transition: width 0.2s ease-in-out;
 
-  @include devices("tablet") {
-    top: unset;
-    bottom: -30rem;
-    right: 0;
-    width: 100vw;
-    height: 30rem;
+  @include devices("desktop") {
+    &.small {
+      width: 30rem;
+    }
 
-    &.show {
-      right: unset;
-      bottom: 0;
+    &.large {
+      width: calc(100vw - 3rem);
+    }
+
+    &.small, &.large {
+      padding: 2em;
     }
   }
 
-  &.show {
-    right: 0;
+  @include devices("tablet") {
+    top: unset;
+    bottom: 0;
+    width: 100vw;
+    height: 0;
+    transition: height 0.2s ease-in-out;
+
+    &.small {
+      right: unset;
+      bottom: 0;
+      height: 50vh;
+    }
+
+    &.large {
+      right: unset;
+      bottom: 0;
+      height: calc(100vh - 3rem);
+    }
+
+    &.small, &.large {
+      padding: 2em;
+    }
   }
 
   .sidebar-container {

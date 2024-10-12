@@ -7,7 +7,7 @@ import useCurrentMarker from "@/hooks/useCurrentMarker"
 import "./styles.scss"
 
 export default function About() {
-  const { toggleStarred, isStarred, showSidebar, setShowSidebar } = useDataContext()
+  const { toggleStarred, isStarred } = useDataContext()
   const currentMarker = useCurrentMarker()
   const markerTextId = currentMarker.getSlug()
   const starDefault = "/images/icons/star.svg"

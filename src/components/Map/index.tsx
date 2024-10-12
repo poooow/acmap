@@ -10,7 +10,7 @@ import useCurrentMarker from "@/hooks/useCurrentMarker"
 
 export default function Map() {
   const currentMarker = useCurrentMarker()
-  const { isStarred, toggleStarred, setShowSidebar } = useDataContext()
+  const { isStarred, toggleStarred, sidebarSize, setSidebarSize } = useDataContext()
 
   const markerIcon = (textId: string, title: string, url: string) => new DivIcon({
     className: `marker-icon`,
@@ -45,7 +45,7 @@ export default function Map() {
       toggleStarred(markerId)
     } else {
       currentMarker.setSlug(markerId.toString())
-      setShowSidebar(true)
+      sidebarSize === 'none' && setSidebarSize('small')
     }
   }
 
