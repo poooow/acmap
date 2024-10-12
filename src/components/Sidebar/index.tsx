@@ -1,6 +1,6 @@
 "use client"
 
-import { useMemo } from 'react'
+import { useEffect, useState, useMemo } from 'react'
 import { useDataContext } from '../../context/Data'
 import FavList from "./FavList"
 import "./styles.scss"
@@ -11,14 +11,21 @@ import About from "./About"
 import useSwipe from '@/hooks/useSwipe'
 
 export default function Sidebar() {
+  const [isMobile, setIsMobile] = useState(true)
   const { sidebarSize, setSidebarSize } = useDataContext()
   const currentMarker = useCurrentMarker()
   const swipeHandlers = useSwipe({
     onSwipedUp: () => sidebarSize === 'none' ? setSidebarSize('small') : setSidebarSize('large'),
     onSwipedDown: () => setSidebarSize('none'),
     onSwipedLeft: () => sidebarSize === 'none' ? setSidebarSize('small') : setSidebarSize('large'),
-    onSwipedRight: () => setSidebarSize('none')
+    onSwipedRight: () => setSidebarSize('none'),
+    directionFilter: isMobile ? 'vertical' : 'horizontal'
   })
+
+  useEffect(() => {    
+    setIsMobile(window.screen.width < 960)
+    window.addEventListener("resize", () => setIsMobile(window.screen.width < 960))
+  }, [])
 
   const Content = useMemo(() => {
     if (currentMarker.getSlug() === "my-list") return <FavList />

@@ -5,6 +5,7 @@ interface SwipeProps {
     onSwipedDown: () => void
     onSwipedLeft: () => void
     onSwipedRight: () => void
+    directionFilter: 'vertical' | 'horizontal'
 }
 
 interface SwipeOutput {
@@ -44,14 +45,14 @@ export default function useSwipe(props: SwipeProps): SwipeOutput {
             const isLeftSwipe = distanceX > minSwipeDistance
             const isRightSwipe = distanceX < -minSwipeDistance
 
-            if (Math.abs(distanceX) > Math.abs(distanceY)) { // Determine swipe direction
+            if (props.directionFilter === 'horizontal' && Math.abs(distanceX) > Math.abs(distanceY)) { // Determine swipe direction
                 if (isLeftSwipe) {
                     props.onSwipedLeft()
                 }
                 if (isRightSwipe) {
                     props.onSwipedRight()
                 }
-            } else {
+            } else if (props.directionFilter === 'vertical') {
                 if (isUpSwipe) {
                     props.onSwipedUp()
                 }
