@@ -30,6 +30,8 @@ export default function useSwipe(props: SwipeProps): SwipeOutput {
     }
 
     const onTouchMove = (e: TouchEvent) => {
+        const target = e. target as HTMLDivElement
+        if (!target.classList.contains('swipable')) return
         setTouchYEnd(e.targetTouches[0].clientY)
         setTouchXEnd(e.targetTouches[0].clientX)
     }

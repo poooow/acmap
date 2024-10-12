@@ -36,13 +36,13 @@ export default function Sidebar() {
 
   return (
     <div
-      className={`sidebar ${sidebarSize}`}
+      className={`sidebar swipable ${sidebarSize}`}
       {...swipeHandlers}
     >
       <div className="sidebar-container">
         {Content}
         <div
-          className="close-button"
+          className="close-button swipable"
           onClick={() => sidebarSize === 'none' ? setSidebarSize('small') : setSidebarSize('none')}>
           {sidebarSize !== 'none' ? '||' : '◁'}
         </div>
