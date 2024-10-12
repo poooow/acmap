@@ -24,7 +24,7 @@
 
     &.small,
     &.large {
-      padding: 2em;
+      padding: 2rem;
     }
   }
 
@@ -33,7 +33,9 @@
     bottom: 0;
     width: 100vw;
     height: 0;
-    transition: height 0.2s ease-in-out;
+    transition:
+      height 0.2s ease-in-out,
+      padding 0.2s ease-in-out;
 
     &.small {
       right: unset;
@@ -49,13 +51,17 @@
 
     &.small,
     &.large {
-      padding: 2em;
+      padding: 2rem 1rem;
     }
   }
 
   .sidebar-container {
     overflow-y: scroll;
     height: 100%;
+
+    @include devices("desktop") {
+      min-width: 26rem;
+    }
 
     .close-button {
       position: absolute;
