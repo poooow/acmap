@@ -1,5 +1,6 @@
 "use client"
 
+import { useMemo } from 'react'
 import { useDataContext } from '../../context/Data'
 import FavList from "./FavList"
 import "./styles.scss"
@@ -19,12 +20,12 @@ export default function Sidebar() {
     onSwipedRight: () => setSidebarSize('none')
   })
 
-  const Content = () => {
+  const Content = useMemo(() => {
     if (currentMarker.getSlug() === "my-list") return <FavList />
     else if (isMarkerTextId(currentMarker.getSlug())) return <Marker />
     else if (currentMarker.getSlug() === "about") return <About />
-  }
-
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentMarker.getSlug()])
 
   return (
     <div
@@ -32,7 +33,7 @@ export default function Sidebar() {
       {...swipeHandlers}
     >
       <div className="sidebar-container">
-        <Content />
+        {Content}
         <div
           className="close-button"
           onClick={() => sidebarSize === 'none' ? setSidebarSize('small') : setSidebarSize('none')}>
