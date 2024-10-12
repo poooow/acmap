@@ -23,21 +23,23 @@ export default function About() {
 
   return (
     <>
-      <div className={`star${isStarred(markerTextId) ? ' starred' : ''}`}>
-        <Image src={isStarred(markerTextId) ? starChecked : starDefault}
-          title="Add to my list"
-          alt="Add to my list"
-          width={40}
-          height={40}
-          onClick={() => toggleStarred(markerTextId)} />
-        <button className="link"><a href="" onClick={(e) => showList(e)}>My list</a></button>
+      <div className="header">
+        <Image src={`/images/markers/${currentMarkerContent.image.url}`}
+          className="sidebar-image"
+          alt={currentMarkerContent.image.alt}
+          width={150}
+          height={150}
+        />
+        <div className={`star${isStarred(markerTextId) ? ' starred' : ''}`}>
+          <Image src={isStarred(markerTextId) ? starChecked : starDefault}
+            title="Add to my list"
+            alt="Add to my list"
+            width={40}
+            height={40}
+            onClick={() => toggleStarred(markerTextId)} />
+          <button className="link"><a href="" onClick={(e) => showList(e)}>My list</a></button>
+        </div>
       </div>
-      <Image src={`/images/markers/${currentMarkerContent.image.url}`}
-        className="sidebar-image"
-        alt={currentMarkerContent.image.alt}
-        width={150}
-        height={150}
-      />
       <h1>{currentMarkerContent.name}</h1>
       <Markdown>{currentMarkerContent.description.short}</Markdown>
       <Markdown>{currentMarkerContent.description.long}</Markdown>

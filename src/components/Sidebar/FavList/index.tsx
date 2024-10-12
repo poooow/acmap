@@ -39,8 +39,10 @@ export default function FavList() {
 
   return (
     <>
-      <button className='gpx' onClick={handleGpxClick}>export GPX</button>
-      <h1>My List</h1>
+      <div className="header">
+        <h1>My List</h1>
+        <button className='gpx' onClick={handleGpxClick}>export GPX</button>
+      </div >
       <ul>
         {!starIds.length &&
           <li className="empty-list">Use{" "}

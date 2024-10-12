@@ -1,36 +1,41 @@
-.star {
-  position: absolute;
-  right: 2rem;
+
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  cursor: pointer;
+  justify-content: space-between;
+  padding-right: 1rem;
 
-  &:not(.starred) img {
-    &:hover {
-      fill: #fff;
-      content: url("/images/icons/star-filled.svg");
+  .star {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor: pointer;
+  
+    &:not(.starred) img {
+      &:hover {
+        fill: #fff;
+        content: url("/images/icons/star-filled.svg");
+      }
+    }
+  
+    button.link {
+      all: unset;
+  
+      &:focus {
+        outline: revert;
+      }
+  
+      a {
+        font-size: 14px;
+      }
     }
   }
-
-  button.link {
-    all: unset;
-
-    &:focus {
-      outline: revert;
-    }
-
-    a {
-      font-size: 14px;
-    }
+  
+  .sidebar-image {
+    margin: 4px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    outline: 4px solid #777777;
   }
-}
-
-.sidebar-image {
-  margin: 4px;
-  border-radius: 50%;
-  border: 4px solid #ffffff;
-  outline: 4px solid #777777;
 }
 
 h1 {

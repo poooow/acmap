@@ -1,16 +1,18 @@
-button.gpx {
-  all: unset;
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin: 2rem;
-  font-size: 14px;
-  text-decoration: underline;
-  color: var(--blue);
-  cursor: pointer;
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
 
-  &:focus {
-    outline: revert;
+  button.gpx {
+    all: unset;
+    font-size: 14px;
+    text-decoration: underline;
+    color: var(--blue);
+    cursor: pointer;
+
+    &:focus {
+      outline: revert;
+    }
   }
 }
 
