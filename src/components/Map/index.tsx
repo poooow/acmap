@@ -50,7 +50,7 @@ export default function Map() {
   }
 
   return (
-    <MapContainer center={[50, 16]} zoom={7} closePopupOnClick={true}>
+    <MapContainer center={[50, 16]} zoom={3} closePopupOnClick={true}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
