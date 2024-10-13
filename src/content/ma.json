@@ -1,0 +1,380 @@
+[
+  {
+    "id": "0",
+    "geocode": {
+      "lat": 31.6259056,
+      "lon": -7.9887526
+    },
+    "name": "Marrakech Medina",
+    "description": {
+      "short": "A UNESCO World Heritage site and cultural heart of Morocco.",
+      "long": "The Medina of Marrakech is a vibrant, maze-like district filled with traditional souks, palaces, and mosques. Visitors can explore historic landmarks like the Koutoubia Mosque, Jemaa el-Fnaa square, and Bahia Palace while immersing themselves in Moroccan culture."
+    },
+    "image": {
+      "url": "ma0.jpg",
+      "alt": "Marrakech Medina",
+      "license": "Creative Commons Zero, Public Domain Dedication"
+    },
+    "resourceLinks": [
+      {
+        "domain": "whc.unesco.org",
+        "url": "https://whc.unesco.org/en/list/331"
+      },
+      {
+        "domain": "visitmorocco.com",
+        "url": "https://www.visitmorocco.com/en/marrakech"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "geocode": {
+      "lat": 34.0241489,
+      "lon": -6.8246604
+    },
+    "name": "Hassan Tower",
+    "description": {
+      "short": "A historic minaret and symbol of Rabat's Islamic architecture.",
+      "long": "The Hassan Tower is an incomplete minaret built during the reign of Sultan Yacoub al-Mansour. Standing tall in Rabat, the tower is part of a larger complex that includes the Mausoleum of Mohammed V, offering a glimpse into Morocco’s Islamic heritage."
+    },
+    "image": {
+      "url": "ma1.jpg",
+      "alt": "Hassan Tower in Rabat",
+      "license": "Creative Commons Zero, Public Domain Dedication"
+    },
+    "resourceLinks": [
+      {
+        "domain": "visitmorocco.com",
+        "url": "https://www.visitmorocco.com/en/hassan-tower"
+      },
+      {
+        "domain": "unesco.org",
+        "url": "https://whc.unesco.org/en/list/1401"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "geocode": {
+      "lat": 31.5118281,
+      "lon": -9.7620903
+    },
+    "name": "Essaouira",
+    "description": {
+      "short": "A coastal town known for its fortified medina and beaches.",
+      "long": "Essaouira is a picturesque coastal town on the Atlantic Ocean, known for its well-preserved medina, historic fortifications, and vibrant arts scene. The town’s windswept beaches also make it a popular spot for surfing and kiteboarding."
+    },
+    "image": {
+      "url": "ma2.jpg",
+      "alt": "View of the medina in Essaouira",
+      "license": "Mounir Neddi, Creative Commons Zero, Public Domain Dedication"
+    },
+    "resourceLinks": [
+      {
+        "domain": "unesco.org",
+        "url": "https://whc.unesco.org/en/list/753"
+      },
+      {
+        "domain": "visitmorocco.com",
+        "url": "https://www.visitmorocco.com/en/essaouira"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "geocode": {
+      "lat": 35.1687747,
+      "lon": -5.2683456
+    },
+    "name": "Chefchaouen",
+    "description": {
+      "short": "The 'Blue City' nestled in the Rif Mountains.",
+      "long": "Chefchaouen is famous for its blue-painted streets and buildings, giving it a unique charm. Located in the Rif Mountains, the town offers beautiful views, a laid-back atmosphere, and a glimpse into Moroccan mountain culture and traditions."
+    },
+    "image": {
+      "url": "ma3.jpg",
+      "alt": "Blue-painted buildings in Chefchaouen",
+      "license": "Public domain"
+    },
+    "resourceLinks": [
+      {
+        "domain": "visitmorocco.com",
+        "url": "https://www.visitmorocco.com/en/chefchaouen"
+      },
+      {
+        "domain": "lonelyplanet.com",
+        "url": "https://www.lonelyplanet.com/morocco/chefchaouen"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "geocode": {
+      "lat": 31.0468536,
+      "lon": -7.1296211
+    },
+    "name": "Ait Benhaddou",
+    "description": {
+      "short": "A UNESCO-listed fortified village along the former caravan route.",
+      "long": "Ait Benhaddou is an ancient ksar (fortified village) made of earthen buildings surrounded by high defensive walls. Situated along the old caravan route between the Sahara and Marrakech, it has been featured in numerous films due to its unique architecture and history."
+    },
+    "image": {
+      "url": "ma4.jpg",
+      "alt": "View of the fortified village of Ait Benhaddou",
+      "license": "Public domain"
+    },
+    "resourceLinks": [
+      {
+        "domain": "unesco.org",
+        "url": "https://whc.unesco.org/en/list/444"
+      },
+      {
+        "domain": "visitmorocco.com",
+        "url": "https://www.visitmorocco.com/en/ait-benhaddou"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "geocode": {
+      "lat": 31.4386541,
+      "lon": -6.0021
+    },
+    "name": "Dades Gorge",
+    "description": {
+      "short": "A dramatic gorge located in the High Atlas mountains.",
+      "long": "Dades Gorge is a deep and scenic gorge carved by the Dades River in the High Atlas mountains. Known for its steep red cliffs, winding roads, and picturesque kasbahs, the gorge is a popular destination for hikers and nature lovers."
+    },
+    "image": {
+      "url": "ma5.jpg",
+      "alt": "Winding road through Dades Gorge",
+      "license": "Mike Prince (https://www.flickr.com/people/70804987@N00) Creative Commons Attribution 2.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "visitmorocco.com",
+        "url": "https://www.visitmorocco.com/en/dades-gorge"
+      },
+      {
+        "domain": "atlasobscura.com",
+        "url": "https://www.atlasobscura.com/places/dades-gorge"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "geocode": {
+      "lat": 34.0722156,
+      "lon": -5.5522244
+    },
+    "name": "Volubilis",
+    "description": {
+      "short": "A UNESCO World Heritage site of ancient Roman ruins.",
+      "long": "Volubilis is one of Morocco’s best-preserved Roman archaeological sites, featuring ancient ruins such as mosaics, temples, and monumental arches. This historical city provides insight into the Roman Empire’s presence in North Africa."
+    },
+    "image": {
+      "url": "ma6.jpg",
+      "alt": "Roman ruins at Volubilis",
+      "license": "Public domain"
+    },
+    "resourceLinks": [
+      {
+        "domain": "unesco.org",
+        "url": "https://whc.unesco.org/en/list/836"
+      },
+      {
+        "domain": "visitmorocco.com",
+        "url": "https://www.visitmorocco.com/en/volubilis"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "geocode": {
+      "lat": 34.0096914,
+      "lon": -6.8303222
+    },
+    "name": "Royal Palace of Rabat",
+    "description": {
+      "short": "The official residence of the King of Morocco.",
+      "long": "The Royal Palace of Rabat is an architectural masterpiece and the residence of Morocco’s royal family. While visitors cannot enter the palace, they can admire the grandiose exterior and surrounding gardens, which reflect Moroccan and Islamic design influences."
+    },
+    "image": {
+      "url": "ma7.jpg",
+      "alt": "Royal Palace of Rabat",
+      "license": "Carlos ZGZ, Creative Commons Zero, Public Domain Dedication"
+    },
+    "resourceLinks": [
+      {
+        "domain": "visitmorocco.com",
+        "url": "https://www.visitmorocco.com/en/royal-palace-rabat"
+      },
+      {
+        "domain": "lonelyplanet.com",
+        "url": "https://www.lonelyplanet.com/morocco/rabat"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "geocode": {
+      "lat": 30.0889153,
+      "lon": -9.6482581
+    },
+    "name": "Souss-Massa National Park",
+    "description": {
+      "short": "A diverse national park along Morocco’s Atlantic coast.",
+      "long": "Souss-Massa National Park is a coastal nature reserve home to diverse ecosystems, including wetlands, dunes, and coastal cliffs. The park is a haven for wildlife, particularly bird species such as flamingos and the endangered northern bald ibis."
+    },
+    "image": {
+      "url": "ma8.jpg",
+      "alt": "Mikel Santamaria (https://500px.com/mikelsantamaria), Creative Commons Attribution 3.0",
+      "license": "Public domain"
+    },
+    "resourceLinks": [
+      {
+        "domain": "visitmorocco.com",
+        "url": "https://www.visitmorocco.com/en/souss-massa-national-park"
+      },
+      {
+        "domain": "atlasobscura.com",
+        "url": "https://www.atlasobscura.com/places/souss-massa-national-park"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "geocode": {
+      "lat": 33.8971803,
+      "lon": -5.5694964
+    },
+    "name": "Meknes Medina",
+    "description": {
+      "short": "A UNESCO-listed historic medina known for its monumental gates.",
+      "long": "The Medina of Meknes is a historical gem, filled with grand palaces, mosques, and the impressive Bab Mansour gate. Once the capital of Morocco under Sultan Moulay Ismail, it reflects a blend of Islamic and European architectural influences."
+    },
+    "image": {
+      "url": "ma9.jpg",
+      "alt": "Meknes Medion",
+      "license": "Mhammedbenkassem, Creative Commons Attribution-Share Alike 4.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "unesco.org",
+        "url": "https://whc.unesco.org/en/list/793"
+      },
+      {
+        "domain": "visitmorocco.com",
+        "url": "https://www.visitmorocco.com/en/meknes"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "geocode": {
+      "lat": 33.57311,
+      "lon": -7.589843
+    },
+    "name": "Casablanca",
+    "description": {
+      "short": "The largest city in Morocco, known for its modernity and rich history.",
+      "long": "Casablanca is Morocco’s economic hub and largest city, blending modern skyscrapers with historic architecture like the Hassan II Mosque. The city is a vibrant mix of business, culture, and tradition, with a bustling port and beautiful Atlantic coast."
+    },
+    "image": {
+      "url": "ma10.jpg",
+      "alt": "Skyline of Casablanca with the Hassan II Mosque",
+      "license": "Public domain"
+    },
+    "resourceLinks": [
+      {
+        "domain": "visitmorocco.com",
+        "url": "https://www.visitmorocco.com/en/casablanca"
+      },
+      {
+        "domain": "lonelyplanet.com",
+        "url": "https://www.lonelyplanet.com/morocco/casablanca"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "geocode": {
+      "lat": 31.0598317,
+      "lon": -7.9149439
+    },
+    "name": "Jebel Toubkal",
+    "description": {
+      "short": "The highest peak in North Africa, located in the Atlas Mountains.",
+      "long": "Jebel Toubkal stands at 4,167 meters and is the highest mountain in North Africa. It is a popular destination for hikers and adventurers, offering stunning views of the Atlas Mountains and the surrounding landscapes. The ascent to the summit is challenging but rewarding."
+    },
+    "image": {
+      "url": "ma11.jpg",
+      "alt": "View of Jebel Toubkal in the Atlas Mountains",
+      "license": "Public domain"
+    },
+    "resourceLinks": [
+      {
+        "domain": "visitmorocco.com",
+        "url": "https://www.visitmorocco.com/en/jebel-toubkal"
+      },
+      {
+        "domain": "atlasobscura.com",
+        "url": "https://www.atlasobscura.com/places/jebel-toubkal"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "geocode": {
+      "lat": 31.0795250,
+      "lon": -3.9920731
+    },
+    "name": "Merzouga",
+    "description": {
+      "short": "A village on the edge of the Sahara Desert, known for its sand dunes.",
+      "long": "Merzouga is a gateway to the Sahara Desert, famous for the nearby Erg Chebbi dunes. Visitors come to experience camel treks, desert camping, and the vast beauty of the golden sand stretching as far as the eye can see."
+    },
+    "image": {
+      "url": "ma12.jpg",
+      "alt": "Sand dunes near Merzouga",
+      "license": "Rubén Bagüés, Creative Commons Zero, Public Domain Dedication"
+    },
+    "resourceLinks": [
+      {
+        "domain": "visitmorocco.com",
+        "url": "https://www.visitmorocco.com/en/merzouga"
+      },
+      {
+        "domain": "lonelyplanet.com",
+        "url": "https://www.lonelyplanet.com/morocco/merzouga"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "geocode": {
+      "lat": 34.0346533,
+      "lon": -5.0161928
+    },
+    "name": "Fez",
+    "description": {
+      "short": "A historic city, known for its well-preserved medieval medina.",
+      "long": "Fez is one of Morocco’s oldest cities and is famous for its ancient walled medina, Fes el Bali, which is a UNESCO World Heritage site. The city is a cultural and spiritual hub, home to the world’s oldest university, Al-Qarawiyyin, and traditional tanneries."
+    },
+    "image": {
+      "url": "ma13.jpg",
+      "alt": "View of Fez Medina",
+      "license": "Public domain"
+    },
+    "resourceLinks": [
+      {
+        "domain": "visitmorocco.com",
+        "url": "https://www.visitmorocco.com/en/fez"
+      },
+      {
+        "domain": "unesco.org",
+        "url": "https://whc.unesco.org/en/list/170"
+      }
+    ]
+  }
+]
