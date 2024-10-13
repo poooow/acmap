@@ -2,8 +2,8 @@
   {
     "id": "0",
     "geocode": {
-      "lat": 0.722748,
-      "lon": 29.879057
+      "lat": 0.4194,
+      "lon": 29.9872
     },
     "name": "Rwenzori Mountains National Park",
     "description": {
@@ -29,8 +29,8 @@
   {
     "id": "1",
     "geocode": {
-      "lat": 0.276905,
-      "lon": 32.614963
+      "lat":  0.3149957,
+      "lon": 32.5859405
     },
     "name": "Kampala (Capital City)",
     "description": {
@@ -56,8 +56,8 @@
   {
     "id": "2",
     "geocode": {
-      "lat": 0.344541,
-      "lon": 32.882170
+      "lat": 2.2976,
+      "lon": 31.7986
     },
     "name": "Murchison Falls National Park",
     "description": {
@@ -83,8 +83,8 @@
   {
     "id": "3",
     "geocode": {
-      "lat": -0.614905,
-      "lon": 29.879067
+      "lat": -1.0188,
+      "lon": 29.6597
     },
     "name": "Bwindi Impenetrable National Park",
     "description": {
@@ -110,8 +110,8 @@
   {
     "id": "4",
     "geocode": {
-      "lat": -0.438550,
-      "lon": 30.475540
+      "lat": -0.2506,
+      "lon": 29.9158
     },
     "name": "Queen Elizabeth National Park",
     "description": {
@@ -137,8 +137,8 @@
   {
     "id": "5",
     "geocode": {
-      "lat": 0.057517,
-      "lon": 32.444512
+      "lat": -0.959,
+      "lon": 32.877
     },
     "name": "Lake Victoria",
     "description": {
@@ -164,8 +164,8 @@
   {
     "id": "6",
     "geocode": {
-      "lat": 3.599547,
-      "lon": 31.765535
+      "lat": 3.9283,
+      "lon": 33.8722
     },
     "name": "Kidepo Valley National Park",
     "description": {
@@ -191,8 +191,8 @@
   {
     "id": "7",
     "geocode": {
-      "lat": 1.078347,
-      "lon": 30.271049
+      "lat": 1.46523,
+      "lon": 32.08420
     },
     "name": "Ziwa Rhino Sanctuary",
     "description": {
@@ -218,8 +218,8 @@
   {
     "id": "8",
     "geocode": {
-      "lat": 0.157765,
-      "lon": 31.614000
+      "lat": -0.433869,
+      "lon": 32.2508816
     },
     "name": "Ssese Islands",
     "description": {
@@ -245,8 +245,8 @@
   {
     "id": "9",
     "geocode": {
-      "lat": 1.292066,
-      "lon": 32.466678
+      "lat": 0.41968,
+      "lon": 33.196805
     },
     "name": "Source of the Nile (Jinja)",
     "description": {
