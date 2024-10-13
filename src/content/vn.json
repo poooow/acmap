@@ -1,0 +1,273 @@
+[
+    {
+      "id": "0",
+      "geocode": {
+        "lat": 20.910051,
+        "lon": 107.183902
+      },
+      "name": "Ha Long Bay",
+      "description": {
+        "short": "A UNESCO World Heritage site famous for its emerald waters and limestone islands.",
+        "long": "Ha Long Bay is one of Vietnam’s most iconic destinations, known for its stunning seascape of limestone karsts and islets, which rise dramatically from emerald waters. Visitors can explore caves, take boat cruises, or kayak through the scenic bay."
+      },
+      "image": {
+        "url": "vn0.jpg",
+        "alt": "Limestone islands in Ha Long Bay",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "halongbay.com.vn",
+          "url": "https://www.halongbay.com.vn/"
+        },
+        {
+          "domain": "unesco.org",
+          "url": "https://whc.unesco.org/en/list/672"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "geocode": {
+        "lat": 21.03529,
+        "lon": 105.85005
+      },
+      "name": "Hanoi Old Quarter",
+      "description": {
+        "short": "The heart of Hanoi, known for its ancient streets and historical significance.",
+        "long": "Hanoi Old Quarter is a vibrant district that preserves the ancient streets and architecture of Vietnam’s capital. It offers an authentic experience with its bustling markets, narrow alleys, colonial buildings, and traditional Vietnamese lifestyle."
+      },
+      "image": {
+        "url": "vn1.jpg",
+        "alt": "Streets of Hanoi Old Quarter",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "vietnam.travel",
+          "url": "https://vietnam.travel/places-to-go/hanoi"
+        },
+        {
+          "domain": "visitvn.com",
+          "url": "https://www.visitvn.com/hanoi-old-quarter"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "geocode": {
+        "lat": 15.766667,
+        "lon": 108.116667
+      },
+      "name": "My Son Sanctuary",
+      "description": {
+        "short": "A UNESCO World Heritage site with ancient Hindu temple ruins.",
+        "long": "My Son Sanctuary is an ancient complex of Hindu temples built by the Champa civilization. Surrounded by lush jungle, these temple ruins are a significant cultural and religious site, showcasing the unique art and architecture of ancient Champa."
+      },
+      "image": {
+        "url": "vn2.jpg",
+        "alt": "Ancient temples at My Son Sanctuary",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "whc.unesco.org",
+          "url": "https://whc.unesco.org/en/list/949"
+        },
+        {
+          "domain": "vietnam.travel",
+          "url": "https://vietnam.travel/places-to-go/my-son"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "geocode": {
+        "lat": 16.463713,
+        "lon": 107.590866
+      },
+      "name": "Imperial City of Hue",
+      "description": {
+        "short": "A UNESCO World Heritage site, once the capital of imperial Vietnam.",
+        "long": "The Imperial City of Hue is a vast complex of palaces, temples, walls, and gates, which served as the political, cultural, and religious center of the Nguyen dynasty. This site is rich in history and beautifully reflects traditional Vietnamese architecture."
+      },
+      "image": {
+        "url": "vn3.jpg",
+        "alt": "Gate at the Imperial City of Hue",
+        "license": "Suicasmo (https://commons.wikimedia.org/wiki/User:Suicasmo), Creative Commons Attribution-Share Alike 4.0"
+      },
+      "resourceLinks": [
+        {
+          "domain": "whc.unesco.org",
+          "url": "https://whc.unesco.org/en/list/678"
+        },
+        {
+          "domain": "vietnam.travel",
+          "url": "https://vietnam.travel/places-to-go/hue"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "geocode": {
+        "lat": 15.880059,
+        "lon": 108.338048
+      },
+      "name": "Hoi An Ancient Town",
+      "description": {
+        "short": "A UNESCO World Heritage site, a preserved ancient trading port.",
+        "long": "Hoi An Ancient Town is a beautifully preserved trading port that dates back to the 15th century. Known for its well-preserved wooden buildings, Japanese bridge, and canals, Hoi An reflects the rich cultural history of Vietnam's trading past."
+      },
+      "image": {
+        "url": "vn4.jpg",
+        "alt": "Hoi An Ancient Town",
+        "license": "Supanut Arunoprayote (https://commons.wikimedia.org/wiki/User:Supanut_Arunoprayote) Creative Commons Attribution 4.0 International"
+      },
+      "resourceLinks": [
+        {
+          "domain": "whc.unesco.org",
+          "url": "https://whc.unesco.org/en/list/948"
+        },
+        {
+          "domain": "vietnam.travel",
+          "url": "https://vietnam.travel/places-to-go/hoi-an"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "geocode": {
+        "lat": 20.256667,
+        "lon": 105.896389
+      },
+      "name": "Trang An Landscape Complex",
+      "description": {
+        "short": "A UNESCO World Heritage site known for its karst landscapes and caves.",
+        "long": "Trang An Landscape Complex is a breathtaking region of limestone karsts, caves, and waterways. Visitors can explore the stunning natural scenery by boat, navigating through caves and past towering cliffs, all while experiencing the area’s natural and cultural history."
+      },
+      "image": {
+        "url": "vn5.jpg",
+        "alt": "Limestone cliffs and rivers of Trang An",
+        "license": "Richard Mortel (https://www.flickr.com/people/43714545@N06)Creative Commons Attribution 2.0 Generic"
+      },
+      "resourceLinks": [
+        {
+          "domain": "whc.unesco.org",
+          "url": "https://whc.unesco.org/en/list/1438"
+        },
+        {
+          "domain": "vietnam.travel",
+          "url": "https://vietnam.travel/places-to-go/trang-an"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "geocode": {
+        "lat": 22.324888,
+        "lon": 103.840499
+      },
+      "name": "Sapa and Terraced Rice Fields",
+      "description": {
+        "short": "A mountain town known for its stunning rice terraces and ethnic culture.",
+        "long": "Sapa is famous for its breathtaking terraced rice fields, which stretch across the hillsides. The town is also a cultural center, home to various ethnic minority groups such as the Hmong and Dao, offering visitors a glimpse into their traditional way of life."
+      },
+      "image": {
+        "url": "vn6.jpg",
+        "alt": "Terraced rice fields in Sapa",
+        "license": "Giuseppe Milo (https://www.flickr.com/people/87690240@N03) Creative Commons Attribution 2.0"
+      },
+      "resourceLinks": [
+        {
+          "domain": "vietnam.travel",
+          "url": "https://vietnam.travel/places-to-go/sapa"
+        },
+        {
+          "domain": "vietnamguide.com",
+          "url": "https://www.vietnam-guide.com/sapa/"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "geocode": {
+        "lat": 10.776889,
+        "lon": 106.700806
+      },
+      "name": "Ho Chi Minh City (Saigon)",
+      "description": {
+        "short": "Vietnam’s largest city, known for its history, culture, and vibrant energy.",
+        "long": "Ho Chi Minh City, formerly known as Saigon, is the economic hub of Vietnam. It offers a mix of historical landmarks such as the War Remnants Museum and Reunification Palace, alongside modern skyscrapers, busy markets, and vibrant nightlife."
+      },
+      "image": {
+        "url": "vn7.jpg",
+        "alt": "Ho Chi Minh City skyline at night",
+        "license": "Tran Van Ngoc (https://banghieuchuyennghiep.vn/) Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "vietnam.travel",
+          "url": "https://vietnam.travel/places-to-go/ho-chi-minh-city"
+        },
+        {
+          "domain": "lonelyplanet.com",
+          "url": "https://www.lonelyplanet.com/vietnam/ho-chi-minh-city"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "geocode": {
+        "lat": 12.238791,
+        "lon": 109.196749
+      },
+      "name": "Nha Trang",
+      "description": {
+        "short": "A coastal city known for its beaches, diving spots, and seaside resorts.",
+        "long": "Nha Trang is a popular beach destination in Vietnam, offering crystal-clear waters, sandy beaches, and opportunities for scuba diving and snorkeling. The city is also home to historic sites like the Po Nagar Cham Towers and a vibrant local culture."
+      },
+      "image": {
+        "url": "vn8.jpg",
+        "alt": "Beachfront in Nha Trang",
+        "license": "Quangpraha, Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "vietnam.travel",
+          "url": "https://vietnam.travel/places-to-go/nha-trang"
+        },
+        {
+          "domain": "vietnam-guide.com",
+          "url": "https://www.vietnam-guide.com/nha-trang/"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "geocode": {
+        "lat": 16.047079,
+        "lon": 108.206230
+      },
+      "name": "Da Nang and Marble Mountains",
+      "description": {
+        "short": "A coastal city with beaches and a group of limestone hills.",
+        "long": "Da Nang is a major port city in Vietnam known for its beaches and nearby Marble Mountains, which consist of five limestone hills. These mountains are home to caves, tunnels, and Buddhist shrines, making them both a natural and spiritual destination."
+      },
+      "image": {
+        "url": "vn9.jpg",
+        "alt": "View of Da Nang",
+        "license": "(https://www.flickr.com/photos/jingke888/25855665262/) Creative Commons Attribution 2.0"
+      },
+      "resourceLinks": [
+        {
+          "domain": "vietnam.travel",
+          "url": "https://vietnam.travel/places-to-go/da-nang"
+        },
+        {
+          "domain": "vietnam-guide.com",
+          "url": "https://www.vietnam-guide.com/da-nang/"
+        }
+      ]
+    }
+  ]
+  

@@ -1,117 +1,271 @@
 [
   {
     "id": "0",
-    "geocode": [0.3476, 32.5825],
-    "name": "Murchison Falls National Park",
+    "geocode": {
+      "lat": 0.722748,
+      "lon": 29.879057
+    },
+    "name": "Rwenzori Mountains National Park",
     "description": {
-      "short": "A national park known for its wildlife and waterfalls.",
-      "long": "Murchison Falls National Park is Uganda's largest national park, located in the northwestern part of the country. It is named after the Murchison Falls, where the Nile River squeezes through a narrow gorge and plunges into a powerful waterfall. The park is home to diverse wildlife, including elephants, giraffes, lions, and hippos. Visitors can enjoy game drives, boat cruises along the Nile River, and hikes to the top of the falls for breathtaking views."
+      "short": "A UNESCO World Heritage site known for its glacier-capped mountains.",
+      "long": "Rwenzori Mountains National Park is a UNESCO World Heritage site, home to the famous 'Mountains of the Moon.' With glaciers, snow-capped peaks, waterfalls, and diverse flora and fauna, the park is a top destination for trekking and nature lovers."
     },
     "image": {
-      "url": "0.jpg",
-      "alt": "Murchison Falls National Park",
-      "license": "CC BY-SA 3.0"
+      "url": "ug0.jpg",
+      "alt": "Rwenzori Mountains in Uganda",
+      "license": "Public domain"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Murchison_Falls_National_Park"
+        "domain": "ugandawildlife.org",
+        "url": "https://www.ugandawildlife.org/explore-parks/rwenzori"
       },
       {
-        "domain": "ugandawildlife.org",
-        "url": "https://www.ugandawildlife.org/"
+        "domain": "unesco.org",
+        "url": "https://whc.unesco.org/en/list/684"
       }
     ]
   },
   {
     "id": "1",
-    "geocode": [0.899, 34.079],
-    "name": "Bwindi Impenetrable Forest",
+    "geocode": {
+      "lat": 0.276905,
+      "lon": 32.614963
+    },
+    "name": "Kampala (Capital City)",
     "description": {
-      "short": "A UNESCO World Heritage site famous for mountain gorilla trekking.",
-      "long": "Bwindi Impenetrable Forest is a UNESCO World Heritage site located in southwestern Uganda. It is known for its dense forest cover and is one of the last remaining habitats of the endangered mountain gorillas. Visitors to Bwindi can participate in gorilla trekking experiences, where trained guides lead small groups through the forest to observe these majestic creatures in their natural habitat. The park is also home to other primates, birds, and unique plant species."
+      "short": "Uganda’s vibrant capital city, full of history and culture.",
+      "long": "Kampala, the capital of Uganda, is a bustling city known for its markets, historical landmarks, cultural sites like the Kasubi Tombs, and the Ugandan Museum. It offers a blend of modernity with deep-rooted traditions, making it a unique city to explore."
     },
     "image": {
-      "url": "1.jpg",
-      "alt": "Bwindi Impenetrable Forest",
-      "license": "CC BY-SA 3.0"
+      "url": "ug1.jpg",
+      "alt": "A view of Kampala city center",
+      "license": "Jepsen, Creative Commons Attribution-Share Alike 3.0 Unported"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Bwindi_Impenetrable_National_Park"
+        "domain": "visitkampala.net",
+        "url": "https://www.visitkampala.net/"
       },
       {
-        "domain": "ugandawildlife.org",
-        "url": "https://www.ugandawildlife.org/"
+        "domain": "ugandatourismcenter.com",
+        "url": "https://ugandatourismcenter.com/place/kampala/"
       }
     ]
   },
   {
     "id": "2",
-    "geocode": [0.4044, 32.2656],
-    "name": "Queen Elizabeth National Park",
+    "geocode": {
+      "lat": 0.344541,
+      "lon": 32.882170
+    },
+    "name": "Murchison Falls National Park",
     "description": {
-      "short": "A diverse national park with savannah and wetlands.",
-      "long": "Queen Elizabeth National Park is one of Uganda's most popular national parks, located in the southwestern part of the country. It is known for its diverse ecosystems, including savannah grasslands, dense forests, and wetlands. The park is home to a wide variety of wildlife, such as elephants, lions, leopards, hippos, and over 600 bird species. Visitors can enjoy game drives, boat cruises on the Kazinga Channel, and chimpanzee tracking in the Kyambura Gorge."
+      "short": "Home to the powerful Murchison Falls and abundant wildlife.",
+      "long": "Murchison Falls National Park is Uganda’s largest national park, known for its dramatic waterfalls where the Nile River plunges 43 meters. The park is also famous for its wildlife safaris, offering a chance to see elephants, lions, giraffes, and hippos."
     },
     "image": {
-      "url": "2.jpg",
-      "alt": "Queen Elizabeth National Park",
-      "license": "CC BY-SA 3.0"
+      "url": "ug2.jpg",
+      "alt": "Murchison Falls in Murchison Falls National Park",
+      "license": "Public domain"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Queen_Elizabeth_National_Park"
+        "domain": "ugandawildlife.org",
+        "url": "https://www.ugandawildlife.org/explore-parks/murchison-falls"
       },
       {
-        "domain": "ugandawildlife.org",
-        "url": "https://www.ugandawildlife.org/"
+        "domain": "africanmeccasafaris.com",
+        "url": "https://www.africanmeccasafaris.com/uganda/murchison-falls"
       }
     ]
   },
   {
     "id": "3",
-    "geocode": [0.6833, 30.8344],
-    "name": "Rwenzori Mountains National Park",
+    "geocode": {
+      "lat": -0.614905,
+      "lon": 29.879067
+    },
+    "name": "Bwindi Impenetrable National Park",
     "description": {
-      "short": "A national park known for its mountain range and glaciers.",
-      "long": "Rwenzori Mountains National Park is located in western Uganda, along the border with the Democratic Republic of Congo. It is known for the Rwenzori mountain range, also known as the Mountains of the Moon, which includes the third-highest peak in Africa, Mount Stanley. The park is famous for its diverse flora and fauna, alpine landscapes, and glaciers. Visitors can trek through the mountains, explore the tropical rainforests, and encounter unique wildlife and bird species."
+      "short": "A UNESCO World Heritage site and home to mountain gorillas.",
+      "long": "Bwindi Impenetrable National Park is famous for its population of mountain gorillas. A UNESCO World Heritage site, the park is covered in dense rainforests and offers one of the best gorilla trekking experiences in the world, along with rich biodiversity."
     },
     "image": {
-      "url": "3.jpg",
-      "alt": "Rwenzori Mountains National Park",
-      "license": "CC BY-SA 3.0"
+      "url": "ug3.jpg",
+      "alt": "Mountain gorillas in Bwindi Impenetrable National Park",
+      "license": "Creative Commons Zero, Public Domain Dedication"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Rwenzori_Mountains_National_Park"
+        "domain": "ugandawildlife.org",
+        "url": "https://www.ugandawildlife.org/explore-parks/bwindi"
       },
       {
-        "domain": "ugandawildlife.org",
-        "url": "https://www.ugandawildlife.org/"
+        "domain": "gorillatrekking.com",
+        "url": "https://www.gorillatrekking.com/bwindi/"
       }
     ]
   },
   {
     "id": "4",
-    "geocode": [0.0631, 32.4637],
-    "name": "Lake Victoria",
+    "geocode": {
+      "lat": -0.438550,
+      "lon": 30.475540
+    },
+    "name": "Queen Elizabeth National Park",
     "description": {
-      "short": "The largest lake in Africa and a major tourist attraction.",
-      "long": "Lake Victoria is the largest lake in Africa and the largest tropical lake in the world, shared by Uganda, Kenya, and Tanzania. It is a major tourist attraction in Uganda, offering opportunities for fishing, boat cruises, and visits to the surrounding islands. The lake is rich in biodiversity, with numerous bird species, including the iconic African fish eagle. Local communities around the lake engage in fishing and agriculture, contributing to the region's cultural and economic significance."
+      "short": "A popular safari destination with diverse wildlife and landscapes.",
+      "long": "Queen Elizabeth National Park is Uganda’s most visited national park, offering incredible wildlife safaris. The park is home to lions, elephants, hippos, and the famous tree-climbing lions of Ishasha. Its varied landscapes include savannahs, wetlands, and lakes."
     },
     "image": {
-      "url": "4.jpg",
-      "alt": "Lake Victoria",
-      "license": "CC BY-SA 3.0"
+      "url": "ug4.jpg",
+      "alt": "Elephants in Queen Elizabeth National Park",
+      "license": "Creative Commons Zero, Public Domain Dedication"
     },
     "resourceLinks": [
       {
-        "domain": "wikipedia.org",
-        "url": "https://en.wikipedia.org/wiki/Lake_Victoria"
+        "domain": "ugandawildlife.org",
+        "url": "https://www.ugandawildlife.org/explore-parks/queen-elizabeth"
+      },
+      {
+        "domain": "safariuganda.com",
+        "url": "https://www.safariuganda.com/queen-elizabeth-national-park"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "geocode": {
+      "lat": 0.057517,
+      "lon": 32.444512
+    },
+    "name": "Lake Victoria",
+    "description": {
+      "short": "The largest lake in Africa and a key ecological and cultural landmark.",
+      "long": "Lake Victoria is the largest lake in Africa and the second largest freshwater lake in the world. It spans multiple countries and is vital to the communities around it. The Ugandan side of the lake offers boating, fishing, birdwatching, and access to islands like Ssese."
+    },
+    "image": {
+      "url": "ug5.jpg",
+      "alt": "View of Lake Victoria",
+      "license": "Parlanter, Creative Commons Attribution-Share Alike 4.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "ugandatourismcenter.com",
+        "url": "https://ugandatourismcenter.com/place/lake-victoria/"
+      },
+      {
+        "domain": "ugandawildlife.org",
+        "url": "https://www.ugandawildlife.org/explore-parks/lake-victoria"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "geocode": {
+      "lat": 3.599547,
+      "lon": 31.765535
+    },
+    "name": "Kidepo Valley National Park",
+    "description": {
+      "short": "A remote and stunning wilderness park in northeastern Uganda.",
+      "long": "Kidepo Valley National Park is one of Uganda’s most isolated and beautiful parks. It offers rugged landscapes, sweeping valleys, and rich wildlife, including lions, elephants, zebras, and cheetahs. Its remote location makes it one of the less visited parks, offering an off-the-beaten-path experience."
+    },
+    "image": {
+      "url": "ug6.jpg",
+      "alt": " Buffalos in Kidepo Vally National Park",
+      "license": "Creative Commons Zero, Public Domain Dedication"
+    },
+    "resourceLinks": [
+      {
+        "domain": "ugandawildlife.org",
+        "url": "https://www.ugandawildlife.org/explore-parks/kidepo"
+      },
+      {
+        "domain": "safariuganda.com",
+        "url": "https://www.safariuganda.com/kidepo-valley-national-park"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "geocode": {
+      "lat": 1.078347,
+      "lon": 30.271049
+    },
+    "name": "Ziwa Rhino Sanctuary",
+    "description": {
+      "short": "A sanctuary dedicated to the conservation of Uganda’s rhinos.",
+      "long": "Ziwa Rhino Sanctuary is Uganda’s only place where you can see rhinos in the wild. The sanctuary is committed to rhino conservation and reintroducing rhinos into Uganda's parks. It offers guided rhino tracking and other wildlife viewing opportunities."
+    },
+    "image": {
+      "url": "ug7.jpg",
+      "alt": "Rhino at Ziwa Rhino Sanctuary",
+      "license": "Bernard DUPONT (https://www.flickr.com/people/65695019@N07), Creative Commons Attribution-Share Alike 2.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "ziwa.org",
+        "url": "https://www.ziwarhino.org/"
+      },
+      {
+        "domain": "ugandawildlife.org",
+        "url": "https://www.ugandawildlife.org/explore-parks/ziwa-rhino"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "geocode": {
+      "lat": 0.157765,
+      "lon": 31.614000
+    },
+    "name": "Ssese Islands",
+    "description": {
+      "short": "A scenic archipelago in Lake Victoria known for relaxation and adventure.",
+      "long": "The Ssese Islands are an archipelago of 84 islands located in the northwestern part of Lake Victoria. Popular for their serene beaches, lush forests, and abundant birdlife, the islands offer a peaceful escape with options for fishing, boating, and hiking."
+    },
+    "image": {
+      "url": "ug8.jpg",
+      "alt": "Ssese Islands",
+      "license": "Saidi Hussen, Creative Commons Attribution-Share Alike 4.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "ugandatourismcenter.com",
+        "url": "https://ugandatourismcenter.com/place/ssese-islands/"
+      },
+      {
+        "domain": "safariuganda.com",
+        "url": "https://www.safariuganda.com/ssese-islands"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "geocode": {
+      "lat": 1.292066,
+      "lon": 32.466678
+    },
+    "name": "Source of the Nile (Jinja)",
+    "description": {
+      "short": "The point where the Nile River begins its journey from Lake Victoria.",
+      "long": "The Source of the Nile is located in Jinja, Uganda, where the Nile River starts its long journey towards Egypt. The site is popular for boat rides and offers stunning views of the Nile’s beginning, as well as opportunities for adventure activities like white-water rafting."
+    },
+    "image": {
+      "url": "ug9.jpg",
+      "alt": " Source of the Nile in Jinja",
+      "license": "Rod Waddington, Creative Commons Attribution-Share Alike 2.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "nile-safari.com",
+        "url": "https://www.nile-safari.com/"
+      },
+      {
+        "domain": "jinjatourism.com",
+        "url": "https://www.jinjatourism.com/nile-source/"
       }
     ]
   }
