@@ -1,6 +1,10 @@
 import cz from "./cz.json"
 import sk from "./sk.json"
 import ug from "./ug.json"
+import vn from "./vn.json"
+import ma from "./ma.json"
+import kh from "./kh.json"
+import nz from "./nz.json"
 
 export type Markers = {
   id: string
@@ -24,7 +28,7 @@ export type Markers = {
   }[]
 }[]
 
-const countriesMarkers:{[country:string]: Markers} = { cz: cz, sk: sk, ug: ug }
+const countriesMarkers:{[country:string]: Markers} = { cz: cz, sk: sk, ug: ug, vn: vn, ma: ma, kh: kh, nz: nz }
 
 let markers: Markers = []
 

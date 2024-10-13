@@ -1,0 +1,353 @@
+[
+  {
+    "id": "0",
+    "geocode": {
+      "lat": -44.670526,
+      "lon": 167.923132
+    },
+    "name": "Milford Sound",
+    "description": {
+      "short": "A spectacular fjord in Fiordland National Park.",
+      "long": "Milford Sound is one of New Zealand's most famous natural landmarks, located in Fiordland National Park. Surrounded by towering cliffs, cascading waterfalls, and home to diverse wildlife, this breathtaking fjord is a must-visit for nature lovers and adventurers."
+    },
+    "image": {
+      "url": "nz0.jpg",
+      "alt": "Milford Sound in Fiordland National Park",
+      "license": "Public domain"
+    },
+    "resourceLinks": [
+      {
+        "domain": "newzealand.com",
+        "url": "https://www.newzealand.com/int/milford-sound/"
+      },
+      {
+        "domain": "lonelyplanet.com",
+        "url": "https://www.lonelyplanet.com/new-zealand/fiordland-national-park/milford-sound"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "geocode": {
+      "lat": -38.1381494,
+      "lon": 176.2529219
+    },
+    "name": "Rotorua",
+    "description": {
+      "short": "A geothermal wonderland and cultural heart of the Māori people.",
+      "long": "Rotorua is renowned for its geothermal activity, featuring bubbling mud pools, steaming geysers, and hot springs. The area is also a center of Māori culture, with opportunities to experience traditional performances, arts, and authentic Māori villages."
+    },
+    "image": {
+      "url": "nz1.jpg",
+      "alt": "Geysers and geothermal activity in Rotorua",
+      "license": "Public domain"
+    },
+    "resourceLinks": [
+      {
+        "domain": "newzealand.com",
+        "url": "https://www.newzealand.com/int/rotorua/"
+      },
+      {
+        "domain": "lonelyplanet.com",
+        "url": "https://www.lonelyplanet.com/new-zealand/rotorua"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "geocode": {
+      "lat": -39.2354258,
+      "lon": 175.5401308
+    },
+    "name": "Tongariro National Park",
+    "description": {
+      "short": "A UNESCO World Heritage site and home to active volcanoes.",
+      "long": "Tongariro National Park is New Zealand's oldest national park and a dual UNESCO World Heritage site, known for its dramatic volcanic landscapes, including Mount Ngauruhoe and Mount Ruapehu. It offers incredible hiking opportunities, including the famous Tongariro Alpine Crossing."
+    },
+    "image": {
+      "url": "nz2.jpg",
+      "alt": "Mount Ngauruhoe in Tongariro National Park",
+      "license": "Public domain"
+    },
+    "resourceLinks": [
+      {
+        "domain": "doc.govt.nz",
+        "url": "https://www.doc.govt.nz/tongariro-national-park/"
+      },
+      {
+        "domain": "newzealand.com",
+        "url": "https://www.newzealand.com/int/tongariro-national-park/"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "geocode": {
+      "lat": -45.0321922,
+      "lon": 168.6610000
+    },
+    "name": "Queenstown",
+    "description": {
+      "short": "A world-renowned adventure destination.",
+      "long": "Queenstown is known as the adventure capital of New Zealand, offering a range of thrilling activities such as bungee jumping, skydiving, and skiing. Surrounded by the stunning Southern Alps and Lake Wakatipu, it's also a great destination for sightseeing and relaxation."
+    },
+    "image": {
+      "url": "nz3.jpg",
+      "alt": "View of Queenstown and Lake Wakatipu",
+      "license": "Creative Commons Zero, Public Domain Dedication"
+    },
+    "resourceLinks": [
+      {
+        "domain": "queenstownnz.co.nz",
+        "url": "https://www.queenstownnz.co.nz/"
+      },
+      {
+        "domain": "newzealand.com",
+        "url": "https://www.newzealand.com/int/queenstown/"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "geocode": {
+      "lat": -36.848461,
+      "lon": 174.763336
+    },
+    "name": "Auckland",
+    "description": {
+      "short": "New Zealand's largest city, known for its iconic skyline.",
+      "long": "Auckland is the largest and most populous city in New Zealand, known for its bustling harbor, vibrant culture, and iconic Sky Tower. The city offers a blend of urban life, beautiful beaches, and nearby islands, making it a perfect destination for travelers."
+    },
+    "image": {
+      "url": "nz4.jpg",
+      "alt": "Skyline of Auckland with the Sky Tower",
+      "license": "Public domain"
+    },
+    "resourceLinks": [
+      {
+        "domain": "aucklandnz.com",
+        "url": "https://www.aucklandnz.com/"
+      },
+      {
+        "domain": "newzealand.com",
+        "url": "https://www.newzealand.com/int/auckland/"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "geocode": {
+      "lat": -43.532054,
+      "lon": 172.636225
+    },
+    "name": "Christchurch",
+    "description": {
+      "short": "The largest city in the South Island, known for its gardens and innovative rebuild.",
+      "long": "Christchurch is a city that blends traditional English charm with innovative modern design. After the devastating 2011 earthquake, the city has undergone a massive rebuild, transforming it into a center of creativity, surrounded by parks and close to alpine adventures."
+    },
+    "image": {
+      "url": "nz5.jpg",
+      "alt": "Christchurch city center",
+      "license": "Creative Commons Zero, Public Domain Dedication"
+    },
+    "resourceLinks": [
+      {
+        "domain": "christchurchnz.com",
+        "url": "https://www.christchurchnz.com/"
+      },
+      {
+        "domain": "newzealand.com",
+        "url": "https://www.newzealand.com/int/christchurch/"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "geocode": {
+      "lat": -45.2996822,
+      "lon": 167.4879039
+    },
+    "name": "Fiordland National Park",
+    "description": {
+      "short": "A vast wilderness known for fjords, mountains, and waterfalls.",
+      "long": "Fiordland National Park is New Zealand’s largest national park and one of its most remote and scenic areas. It’s home to deep fjords like Milford Sound, lush rainforests, and towering mountains, offering some of the best hiking and wildlife-watching opportunities in the country."
+    },
+    "image": {
+      "url": "nz6.jpg",
+      "alt": "Waterfall in Fiordland National Park",
+      "license": "Creative Commons Zero, Public Domain Dedication"
+    },
+    "resourceLinks": [
+      {
+        "domain": "doc.govt.nz",
+        "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/"
+      },
+      {
+        "domain": "newzealand.com",
+        "url": "https://www.newzealand.com/int/fiordland-national-park/"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "geocode": {
+      "lat": -41.2923164,
+      "lon": 174.7777236
+    },
+    "name": "Wellington",
+    "description": {
+      "short": "New Zealand’s capital city, known for its arts and culture.",
+      "long": "Wellington is the capital city of New Zealand and is famous for its vibrant arts scene, world-class museums, and stunning waterfront. The city is also the gateway to the North and South Islands, offering easy access to nearby natural attractions."
+    },
+    "image": {
+      "url": "nz7.jpg",
+      "alt": "Wellington's waterfront and cityscape",
+      "license": "Public domain"
+    },
+    "resourceLinks": [
+      {
+        "domain": "wellingtonnz.com",
+        "url": "https://www.wellingtonnz.com/"
+      },
+      {
+        "domain": "newzealand.com",
+        "url": "https://www.newzealand.com/int/wellington/"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "geocode": {
+      "lat": -35.2681708,
+      "lon": 174.0809222
+    },
+    "name": "Waitangi",
+    "description": {
+      "short": "Historic site of the signing of the Treaty of Waitangi.",
+      "long": "Waitangi is a significant historical site in New Zealand, known for the signing of the Treaty of Waitangi in 1840 between Māori chiefs and the British Crown. It is home to the Waitangi Treaty Grounds, featuring a visitor center, a traditional Māori meeting house, and beautiful gardens."
+    },
+    "image": {
+      "url": "nz8.jpg",
+      "alt": "Waitangi Treaty Grounds",
+      "license": "Public domain"
+    },
+    "resourceLinks": [
+      {
+        "domain": "waitangi.org.nz",
+        "url": "https://www.waitangi.org.nz/"
+      },
+      {
+        "domain": "newzealand.com",
+        "url": "https://www.newzealand.com/int/waitangi/"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "geocode": {
+      "lat": -39.283,
+      "lon": 174.0632
+    },
+    "name": "Mount Egmont (Taranaki)",
+    "description": {
+      "short": "A dormant stratovolcano in Taranaki region.",
+      "long": "Mount Egmont, also known as Taranaki, is a dormant stratovolcano located in the Taranaki region of New Zealand. It is famous for its symmetrical cone shape and is a prominent feature of Egmont National Park. The mountain offers various hiking trails and stunning views of the surrounding landscape."
+    },
+    "image": {
+      "url": "nz9.jpg",
+      "alt": "Mount Egmont in Taranaki region",
+      "license": "Public domain"
+    },
+    "resourceLinks": [
+      {
+        "domain": "doc.govt.nz",
+        "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/egmont-national-park/"
+      },
+      {
+        "domain": "newzealand.com",
+        "url": "https://www.newzealand.com/int/mount-egmont/"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "geocode": {
+      "lat": -40.8462,
+      "lon": 173.0029
+    },
+    "name": "Abel Tasman National Park",
+    "description": {
+      "short": "A coastal national park known for its stunning beaches.",
+      "long": "Abel Tasman National Park is renowned for its golden sandy beaches, clear turquoise waters, and lush native forests. Located at the northern end of New Zealand's South Island, the park offers a variety of activities including hiking, kayaking, and wildlife watching, making it a popular destination for outdoor enthusiasts."
+    },
+    "image": {
+      "url": "nz10.jpg",
+      "alt": "Beautiful beach in Abel Tasman National Park",
+      "license": "Public domain"
+    },
+    "resourceLinks": [
+      {
+        "domain": "doc.govt.nz",
+        "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/abel-tasman-national-park/"
+      },
+      {
+        "domain": "newzealand.com",
+        "url": "https://www.newzealand.com/int/abel-tasman-national-park/"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "geocode": {
+      "lat": -44.0033467,
+      "lon": 170.4824678
+    },
+    "name": "Lake Tekapo",
+    "description": {
+      "short": "A stunning turquoise lake known for its scenic beauty.",
+      "long": "Lake Tekapo is famous for its striking turquoise waters, which are created by the glacial flour suspended in the water. Located in the Mackenzie Region of New Zealand's South Island, it is surrounded by mountains and offers a range of outdoor activities, including stargazing, hiking, and hot springs."
+    },
+    "image": {
+      "url": "nz11.jpg",
+      "alt": "Church of the Good Shepherd",
+      "license": "Creative Commons Zero, Public Domain Dedication"
+    },
+    "resourceLinks": [
+      {
+        "domain": "newzealand.com",
+        "url": "https://www.newzealand.com/int/lake-tekapo/"
+      },
+      {
+        "domain": "mckenzie.nz",
+        "url": "https://www.mckenzie.nz/lake-tekapo/"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "geocode": {
+      "lat": -38.2607050,
+      "lon": 175.1100514
+    },
+    "name": "Waitomo Cave",
+    "description": {
+      "short": "Famous for its glowworm-lit caves.",
+      "long": "Waitomo Cave is renowned for its stunning limestone formations and the mesmerizing glowworms that light up the underground caves. Located in the Waikato region of New Zealand, it offers various guided tours, including boat rides through the glowworm grotto, making it a popular destination for adventure seekers and nature lovers."
+    },
+    "image": {
+      "url": "nz12.jpg",
+      "alt": "Glowworms in Waitomo Cave",
+      "license": "Манько Марко, Creative Commons Attribution-Share Alike 4.0"
+    },
+    "resourceLinks": [
+      {
+        "domain": "waitomo.com",
+        "url": "https://www.waitomo.com/"
+      },
+      {
+        "domain": "newzealand.com",
+        "url": "https://www.newzealand.com/int/waitomo-caves/"
+      }
+    ]
+  }
+]

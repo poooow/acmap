@@ -1,0 +1,165 @@
+[
+    {
+      "id": "0",
+      "geocode": {
+        "lat": 13.4124425,
+        "lon": 103.8665872
+      },
+      "name": "Angkor Wat",
+      "description": {
+        "short": "The largest religious monument in the world.",
+        "long": "Angkor Wat is a vast temple complex in Cambodia, originally built as a Hindu temple in the early 12th century. It later became a Buddhist temple and is now a UNESCO World Heritage site. The intricate carvings and massive size make it Cambodia’s most famous attraction."
+      },
+      "image": {
+        "url": "kh0.jpg",
+        "alt": "Angkor Wat temple at sunrise",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "unesco.org",
+          "url": "https://whc.unesco.org/en/list/668"
+        },
+        {
+          "domain": "tourismcambodia.com",
+          "url": "https://www.tourismcambodia.com/attractions/angkor/angkor-wat.htm"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "geocode": {
+        "lat": 10.7156758,
+        "lon": 103.2473428
+      },
+      "name": "Koh Rong",
+      "description": {
+        "short": "A tropical island with pristine beaches.",
+        "long": "Koh Rong is a Cambodian island in the Gulf of Thailand, known for its white-sand beaches, clear blue waters, and laid-back atmosphere. The island offers activities like snorkeling, diving, and hiking, making it a popular destination for nature lovers and beachgoers."
+      },
+      "image": {
+        "url": "kh1.jpg",
+        "alt": "Beach on Koh Rong island",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "tourismcambodia.com",
+          "url": "https://www.tourismcambodia.com/attractions/kohrong.htm"
+        },
+        {
+          "domain": "lonelyplanet.com",
+          "url": "https://www.lonelyplanet.com/cambodia/kohrong"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "geocode": {
+        "lat": 11.5637725,
+        "lon": 104.9301469
+      },
+      "name": "Royal Palace, Phnom Penh",
+      "description": {
+        "short": "The residence of the King of Cambodia and a symbol of the monarchy.",
+        "long": "The Royal Palace in Phnom Penh is a beautiful example of Cambodian architecture and serves as the residence of the King of Cambodia. Visitors can explore its opulent buildings, including the Silver Pagoda, which houses many national treasures."
+      },
+      "image": {
+        "url": "kh3.jpg",
+        "alt": "View of the Royal Palace in Phnom Penh",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "tourismcambodia.com",
+          "url": "https://www.tourismcambodia.com/attractions/royal-palace.htm"
+        },
+        {
+          "domain": "lonelyplanet.com",
+          "url": "https://www.lonelyplanet.com/cambodia/phnom-penh/attractions/royal-palace"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "geocode": {
+        "lat": 12.8871197,
+        "lon": 104.0196500
+      },
+      "name": "Tonle Sap Lake",
+      "description": {
+        "short": "The largest freshwater lake in Southeast Asia.",
+        "long": "Tonle Sap is a vast freshwater lake that plays a crucial role in Cambodia’s ecology and economy. It is home to floating villages and a variety of bird species, making it a popular destination for eco-tourism and a unique insight into the country’s rural life."
+      },
+      "image": {
+        "url": "kh3.jpg",
+        "alt": "Floating village on Tonle Sap Lake",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "tourismcambodia.com",
+          "url": "https://www.tourismcambodia.com/attractions/tonle-sap.htm"
+        },
+        {
+          "domain": "unesco.org",
+          "url": "https://whc.unesco.org/en/list/1066"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "geocode": {
+        "lat": 11.033252,
+        "lon": 104.504319
+      },
+      "name": "Phnom Kulen National Park",
+      "description": {
+        "short": "A sacred mountain with waterfalls and ancient ruins.",
+        "long": "Phnom Kulen is one of Cambodia’s most important spiritual sites. The national park offers lush landscapes, waterfalls, and ancient relics, including the Thousand Lingas, a series of riverbed carvings, and a large reclining Buddha statue on top of the mountain."
+      },
+      "image": {
+        "url": "kh4.jpg",
+        "alt": "Waterfall in Phnom Kulen National Park",
+        "license": "Narith5 (https://www.flickr.com/photos/naritheole/) Creative Commons Attribution 2.0"
+      },
+      "resourceLinks": [
+        {
+          "domain": "tourismcambodia.com",
+          "url": "https://www.tourismcambodia.com/attractions/phnom-kulen.htm"
+        },
+        {
+          "domain": "unesco.org",
+          "url": "https://whc.unesco.org/en/list/668"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "geocode": {
+        "lat": 13.7520464,
+        "lon": 104.5472497
+      },
+      "name": "Koh Ker",
+      "description": {
+        "short": "A remote archaeological site featuring a pyramid-like temple.",
+        "long": "Koh Ker is an ancient Khmer city and archaeological site in northern Cambodia. The site is famous for its impressive seven-tiered pyramid, Prasat Thom, and the numerous temples scattered throughout the jungle, offering a glimpse into Cambodia’s distant past."
+      },
+      "image": {
+        "url": "kh5.jpg",
+        "alt": "Pyramid temple of Koh Ker",
+        "license": "PsamatheM (https://commons.wikimedia.org/wiki/User:PsamatheM) Creative Commons Attribution-Share Alike 4.0"
+      },
+      "resourceLinks": [
+        {
+          "domain": "unesco.org",
+          "url": "https://whc.unesco.org/en/list/1453"
+        },
+        {
+          "domain": "tourismcambodia.com",
+          "url": "https://www.tourismcambodia.com/attractions/koh-ker.htm"
+        }
+      ]
+    }
+  ]
+  
