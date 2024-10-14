@@ -1,4 +1,6 @@
 "use client"
+
+import { useEffect, useState } from "react"
 import { MapContainer, Marker, TileLayer, useMapEvents } from "react-leaflet"
 import { DivIcon, LeafletMouseEvent } from "leaflet"
 import MarkerClusterGroup from "react-leaflet-cluster"
@@ -10,7 +12,17 @@ import useCurrentMarker from "@/hooks/useCurrentMarker"
 
 export default function Map() {
   const currentMarker = useCurrentMarker()
-  const { isStarred, toggleStarred, sidebarSize, setSidebarSize } = useDataContext()
+  const { isStarred, toggleStarred, sidebarSize, setSidebarSize, userData, setUserData } = useDataContext()
+  const [isInitPositionSet, setisInitPositionSet] = useState(false)
+  const [mapRef, setMapRef] = useState<L.Map | null>(null)
+
+
+  useEffect(() => {
+    if (!isInitPositionSet && userData?.lastPosition && mapRef) {
+      mapRef.setView([userData.lastPosition.lat, userData.lastPosition.lng], userData.lastPosition.zoom)
+      setisInitPositionSet(true)
+    }
+  }, [userData, mapRef])
 
   const markerIcon = (textId: string, title: string, url: string) => new DivIcon({
     className: `marker-icon`,
@@ -30,10 +42,15 @@ export default function Map() {
   }
 
   // Allow attach click event on map container
-  function MapClickComponent() {
+  function MapController() {
     useMapEvents({
       click: () => {
         currentMarker.setSlug("my-list")
+      },
+      moveend: (e) => {
+        const { lat, lng } = e.target.getCenter()
+        const lastPositionTemp = { lat, lng, zoom: e.target.getZoom() }
+        if (lastPositionTemp) setUserData({ ...userData, lastPosition: lastPositionTemp })
       }
     })
     return null
@@ -50,7 +67,7 @@ export default function Map() {
   }
 
   return (
-    <MapContainer center={[50, 16]} zoom={3} closePopupOnClick={true}>
+    <MapContainer center={[50, 16]} zoom={3} closePopupOnClick={true} ref={setMapRef}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
@@ -76,7 +93,7 @@ export default function Map() {
           </Marker>
         ))}
       </MarkerClusterGroup>
-      <MapClickComponent />
+      <MapController />
     </MapContainer>
   )
 }
