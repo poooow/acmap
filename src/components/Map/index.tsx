@@ -16,13 +16,17 @@ export default function Map() {
   const [isInitPositionSet, setisInitPositionSet] = useState(false)
   const [mapRef, setMapRef] = useState<L.Map | null>(null)
 
-
   useEffect(() => {
+    // Set position on first load
     if (!isInitPositionSet && userData?.lastPosition && mapRef) {
-      mapRef.setView([userData.lastPosition.lat, userData.lastPosition.lng], userData.lastPosition.zoom)
+      setView(userData.lastPosition.lat, userData.lastPosition.lng, userData.lastPosition.zoom)
       setisInitPositionSet(true)
     }
   }, [userData, mapRef])
+
+  function setView(lat: number, lng: number, zoom: number) {
+    if (mapRef) mapRef.setView([lat, lng], zoom)
+  }
 
   const markerIcon = (textId: string, title: string, url: string) => new DivIcon({
     className: `marker-icon`,
@@ -41,16 +45,16 @@ export default function Map() {
     })
   }
 
-  // Allow attach click event on map container
+  // Allow attach events on map container
   function MapController() {
     useMapEvents({
       click: () => {
         currentMarker.setSlug("my-list")
       },
-      moveend: (e) => {
+      moveend: (e) => { // Save current position to local storage
         const { lat, lng } = e.target.getCenter()
-        const lastPositionTemp = { lat, lng, zoom: e.target.getZoom() }
-        if (lastPositionTemp) setUserData({ ...userData, lastPosition: lastPositionTemp })
+        const lastPosition = { lat, lng, zoom: e.target.getZoom() }
+        if (lastPosition) setUserData({ ...userData, lastPosition: lastPosition })
       }
     })
     return null
