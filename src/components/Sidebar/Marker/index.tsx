@@ -7,7 +7,7 @@ import useCurrentMarker from "@/hooks/useCurrentMarker"
 import "./styles.scss"
 
 export default function About() {
-  const { toggleStarred, isStarred } = useDataContext()
+  const { toggleStarred, isStarred, setView } = useDataContext()
   const currentMarker = useCurrentMarker()
   const markerTextId = currentMarker.getSlug()
   const starDefault = "/images/icons/star.svg"
@@ -30,6 +30,9 @@ export default function About() {
           width={150}
           height={150}
         />
+        <div className="focus" onClick={() => setView(currentMarkerContent.geocode.lat, currentMarkerContent.geocode.lon, 12)}>
+          <Image title="Focus" alt="Focus" src="/images/icons/focus.svg" width={40} height={40} />
+        </div>
         <div className={`star${isStarred(markerTextId) ? ' starred' : ''}`}>
           <Image src={isStarred(markerTextId) ? starChecked : starDefault}
             title="Add to my list"

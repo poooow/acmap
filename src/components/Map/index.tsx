@@ -13,9 +13,8 @@ import { useSearchParams } from 'next/navigation'
 
 export default function Map() {
   const currentMarker = useCurrentMarker()
-  const { isStarred, toggleStarred, sidebarSize, setSidebarSize, userData, setUserData } = useDataContext()
+  const { isStarred, toggleStarred, sidebarSize, setSidebarSize, userData, setUserData, mapRef, setMapRef, setView } = useDataContext()
   const [isInitPositionSet, setisInitPositionSet] = useState(false)
-  const [mapRef, setMapRef] = useState<L.Map | null>(null)
   const searchParams = useSearchParams()
 
   // Set position on first load
@@ -38,10 +37,6 @@ export default function Map() {
     setView(lat, lng, zoom)
     setisInitPositionSet(true)
   }, [userData, mapRef])
-
-  function setView(lat: number, lng: number, zoom: number) {
-    if (mapRef) mapRef.setView([lat, lng], zoom)
-  }
 
   const markerIcon = (textId: string, title: string, url: string) => new DivIcon({
     className: `marker-icon`,

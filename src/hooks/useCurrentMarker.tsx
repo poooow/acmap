@@ -4,7 +4,7 @@ import { useDataContext } from "@/context/Data"
 import { useSearchParams } from 'next/navigation'
 
 export default function useCurrentMarker() {
-  const { currentContentSlug, setCurrentContentSlug, setSidebarSize, currentParams, setCurrentParams } = useDataContext()
+  const { currentContentSlug, setCurrentContentSlug, currentParams, setCurrentParams } = useDataContext()
   const searchParams = new URLSearchParams(useSearchParams())
 
   const getSlug = () => {

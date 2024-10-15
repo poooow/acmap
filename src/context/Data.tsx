@@ -32,6 +32,9 @@ interface DataContext {
   setUserData(arg0: UserData): void
   currentParams: URLSearchParams | null
   setCurrentParams(arg0: URLSearchParams): void
+  mapRef: L.Map | null
+  setMapRef(arg0: L.Map): void
+  setView(lat: number, lng: number, zoom: number): void
 }
 
 const DataContext = createContext({} as DataContext)
@@ -41,6 +44,7 @@ const DataProvider = (props: { children: React.ReactNode }) => {
   const [currentContentSlug, setCurrentContentSlug] = useState<string>("about")
   const [currentParams, setCurrentParams] = useState<URLSearchParams | null>(null)
   const [sidebarSize, setSidebarSize] = useState<SidebarSize>('none')
+  const [mapRef, setMapRef] = useState<L.Map | null>(null)
 
   useEffect(() => {
     if (starIds.length) {
@@ -103,6 +107,10 @@ const DataProvider = (props: { children: React.ReactNode }) => {
     }
   }
 
+  const setView = (lat: number, lng: number, zoom: number) => {
+    if (mapRef) mapRef.setView([lat, lng], zoom)
+  }
+
   return (
     <DataContext.Provider
       value={{
@@ -119,7 +127,10 @@ const DataProvider = (props: { children: React.ReactNode }) => {
         userData,
         setUserData,
         currentParams,
-        setCurrentParams
+        setCurrentParams,
+        mapRef,
+        setMapRef,
+        setView
       }}>
       {props.children}
     </DataContext.Provider>

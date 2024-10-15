@@ -4,6 +4,17 @@
     justify-content: space-between;
     padding-right: 1rem;
 
+    .focus {
+      margin: 0 1rem 0 auto;
+      cursor: pointer;
+
+      &:hover {
+        content: url("/images/icons/focus-hover.svg");
+        width: 40px;
+        height: 40px;
+      }
+    }
+
     .star {
       display: flex;
       flex-direction: column;
