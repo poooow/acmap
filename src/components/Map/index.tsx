@@ -9,19 +9,34 @@ import { useDataContext } from '../../context/Data'
 import "leaflet/dist/leaflet.css"
 import "./styles.scss"
 import useCurrentMarker from "@/hooks/useCurrentMarker"
+import { useSearchParams } from 'next/navigation'
 
 export default function Map() {
   const currentMarker = useCurrentMarker()
   const { isStarred, toggleStarred, sidebarSize, setSidebarSize, userData, setUserData } = useDataContext()
   const [isInitPositionSet, setisInitPositionSet] = useState(false)
   const [mapRef, setMapRef] = useState<L.Map | null>(null)
+  const searchParams = useSearchParams()
 
+  // Set position on first load
   useEffect(() => {
-    // Set position on first load
-    if (!isInitPositionSet && userData?.lastPosition && mapRef) {
-      setView(userData.lastPosition.lat, userData.lastPosition.lng, userData.lastPosition.zoom)
-      setisInitPositionSet(true)
-    }
+    if (isInitPositionSet || !mapRef) return
+    let lat
+    let lng
+    let zoom
+
+    if (searchParams.get('lat') && searchParams.get('lng')) {
+      lat = Number(searchParams.get('lat'))
+      lng = Number(searchParams.get('lng'))
+      zoom = Number(searchParams.get('zoom'))
+    } else if (userData?.lastPosition) {
+      lat = userData.lastPosition.lat
+      lng = userData.lastPosition.lng
+      zoom = userData.lastPosition.zoom
+    } else return
+
+    setView(lat, lng, zoom)
+    setisInitPositionSet(true)
   }, [userData, mapRef])
 
   function setView(lat: number, lng: number, zoom: number) {
@@ -53,8 +68,15 @@ export default function Map() {
       },
       moveend: (e) => { // Save current position to local storage
         const { lat, lng } = e.target.getCenter()
-        const lastPosition = { lat, lng, zoom: e.target.getZoom() }
-        if (lastPosition) setUserData({ ...userData, lastPosition: lastPosition })
+        const lastPosition = {
+          lat: lat.toFixed(5),
+          lng: lng.toFixed(5),
+          zoom: e.target.getZoom()
+        }
+        if (lastPosition) {
+          setUserData({ ...userData, lastPosition: lastPosition })
+          currentMarker.setPath(currentMarker.getSlug(), lastPosition)
+        }
       }
     })
     return null

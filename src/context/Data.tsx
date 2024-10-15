@@ -3,8 +3,19 @@
 import { useEffect, useState, createContext, useContext } from 'react'
 
 const STAR_IDS_KEY = 'starIds'
+const USER_KEY = 'userData'
 
 type SidebarSize = 'none' | 'small' | 'large'
+
+export type MapPosition = {
+  lat: number,
+  lng: number,
+  zoom: number
+}
+
+type UserData = {
+  lastPosition: MapPosition
+}
 
 interface DataContext {
   starIds: string[]
@@ -17,23 +28,34 @@ interface DataContext {
   setCurrentContentSlug(slug: string): void
   sidebarSize: SidebarSize
   setSidebarSize(arg0: SidebarSize): void
+  userData: UserData | null
+  setUserData(arg0: UserData): void
+  currentParams: URLSearchParams | null
+  setCurrentParams(arg0: URLSearchParams): void
 }
 
 const DataContext = createContext({} as DataContext)
 const DataProvider = (props: { children: React.ReactNode }) => {
   const [starIds, setStarIds] = useState<string[]>([])
+  const [userData, setUserData] = useState<UserData | null>(null)
   const [currentContentSlug, setCurrentContentSlug] = useState<string>("about")
+  const [currentParams, setCurrentParams] = useState<URLSearchParams | null>(null)
   const [sidebarSize, setSidebarSize] = useState<SidebarSize>('none')
 
   useEffect(() => {
     if (starIds.length) {
       saveStarIds(starIds)
     }
-  }, [starIds])
+
+    if (userData) {
+      saveUserData(userData)
+    }
+  }, [starIds, userData])
 
   useEffect(() => {
     const fetchLocalData = async () => {
       setStarIds(loadStarIds())
+      setUserData(loadUserData())
     }
     fetchLocalData()
   }, [])
@@ -44,9 +66,17 @@ const DataProvider = (props: { children: React.ReactNode }) => {
     return data !== null ? JSON.parse(data) : starIds
   }
 
+  const loadUserData = () => {
+    const data = window.localStorage.getItem(USER_KEY)
+    return data !== null ? JSON.parse(data) : []
+  }
+
+  const saveUserData = (userData: UserData) => {
+    window.localStorage.setItem(USER_KEY, JSON.stringify(userData))
+  }
+
   const saveStarIds = (starIds: string[]) => {
     window.localStorage.setItem(STAR_IDS_KEY, JSON.stringify(starIds))
-    setStarIds(starIds)
   }
 
   const isStarred = (id: string) => {
@@ -85,7 +115,11 @@ const DataProvider = (props: { children: React.ReactNode }) => {
         currentContentSlug,
         setCurrentContentSlug,
         sidebarSize,
-        setSidebarSize
+        setSidebarSize,
+        userData,
+        setUserData,
+        currentParams,
+        setCurrentParams
       }}>
       {props.children}
     </DataContext.Provider>
