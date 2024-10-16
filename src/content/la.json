@@ -1,0 +1,273 @@
+[
+    {
+      "id": "0",
+      "geocode": {
+        "lat": 19.89,
+        "lon": 102.134722
+      },
+      "name": "Luang Prabang",
+      "description": {
+        "short": "A UNESCO World Heritage town with stunning temples.",
+        "long": "Luang Prabang is a picturesque town known for its well-preserved Buddhist temples, colonial architecture, and its location at the confluence of the Mekong and Nam Khan rivers. Visitors can explore ancient temples, visit the royal palace, and watch the daily almsgiving ceremony."
+      },
+      "image": {
+        "url": "la0.jpg",
+        "alt": "Wat Xieng Thong",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "tourismlaos.org",
+          "url": "https://www.tourismlaos.org/show_province.php?Cont_ID=340"
+        },
+        {
+          "domain": "unesco.org",
+          "url": "https://whc.unesco.org/en/list/479/"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "geocode": {
+        "lat": 17.98,
+        "lon": 102.63
+      },
+      "name": "Vientiane",
+      "description": {
+        "short": "The laid-back capital of Laos.",
+        "long": "Vientiane, the capital of Laos, offers a mix of French colonial architecture and Buddhist temples. Notable attractions include the Patuxai Victory Monument, Pha That Luang, and the Buddha Park, which features hundreds of statues."
+      },
+      "image": {
+        "url": "la1.jpg",
+        "alt": "Pha That Luang",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "tourismlaos.org",
+          "url": "https://www.tourismlaos.org/show_province.php?Cont_ID=337"
+        },
+        {
+          "domain": "britannica.com",
+          "url": "https://www.britannica.com/place/Vientiane"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "geocode": {
+        "lat": 19.431111,
+        "lon": 103.1525
+      },
+      "name": "Plain of Jars",
+      "description": {
+        "short": "A mysterious archaeological site with stone jars.",
+        "long": "The Plain of Jars is a megalithic archaeological landscape in the Xieng Khouang Plateau. Scattered across the area are thousands of stone jars, believed to have been used for burial purposes or to store rice wine."
+      },
+      "image": {
+        "url": "la2.jpg",
+        "alt": "Stone jars at Plain of Jars",
+        "license": "Jakub Hałun (https://commons.wikimedia.org/wiki/User:Jakubhal) Creative Commons Attribution-Share Alike 4.0"
+      },
+      "resourceLinks": [
+        {
+          "domain": "tourismlaos.org",
+          "url": "https://www.tourismlaos.org/show_province.php?Cont_ID=342"
+        },
+        {
+          "domain": "unesco.org",
+          "url": "https://whc.unesco.org/en/list/1587/"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "geocode": {
+        "lat": 14.848333,
+        "lon": 105.822222
+      },
+      "name": "Vat Phou",
+      "description": {
+        "short": "An ancient Khmer temple complex.",
+        "long": "Vat Phou is a ruined Khmer Hindu temple complex located in southern Laos, dating back to the 11th century. The site is recognized as a UNESCO World Heritage Site, and offers breathtaking views of the surrounding landscape."
+      },
+      "image": {
+        "url": "la3.jpg",
+        "alt": "Ancient ruins of Vat Phou",
+        "license": "Basile Morin (https://commons.wikimedia.org/wiki/User:Basile_Morin) Creative Commons Attribution-Share Alike 4.0"
+      },
+      "resourceLinks": [
+        {
+          "domain": "tourismlaos.org",
+          "url": "https://www.tourismlaos.org/show_province.php?Cont_ID=343"
+        },
+        {
+          "domain": "unesco.org",
+          "url": "https://whc.unesco.org/en/list/481/"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "geocode": {
+        "lat": 17.91229,
+        "lon": 102.765397
+      },
+      "name": "Buddha Park",
+      "description": {
+        "short": "A sculpture park with hundreds of statues.",
+        "long": "Located just outside Vientiane, Buddha Park (Xieng Khuan) features over 200 Hindu and Buddhist statues, including a giant reclining Buddha. The park was created in 1958 by Luang Pu Bunleua Sulilat, a monk and artist."
+      },
+      "image": {
+        "url": "la4.jpg",
+        "alt": "Statues in Buddha Park, Laos",
+        "license": "Christophe95 (https://commons.wikimedia.org/wiki/User:Christophe95) Creative Commons Attribution-Share Alike 4.0"
+      },
+      "resourceLinks": [
+        {
+          "domain": "tourismlaos.org",
+          "url": "https://www.tourismlaos.org/show_province.php?Cont_ID=338"
+        },
+        {
+          "domain": "wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Buddha_Park"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "geocode": {
+        "lat": 20.51352,
+        "lon": 100.6495
+      },
+      "name": "Bokeo Nature Reserve",
+      "description": {
+        "short": "A protected area home to the black-cheeked gibbon.",
+        "long": "Bokeo Nature Reserve is famous for its Gibbon Experience, which allows visitors to stay in tree houses and zip-line through the jungle. The reserve protects various wildlife species, including the endangered black-cheeked gibbon."
+      },
+      "image": {
+        "url": "la5.jpg",
+        "alt": "White Cheeked Gibbon",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "gibbonexperience.org",
+          "url": "https://www.gibbonexperience.org/"
+        },
+        {
+          "domain": "tourismlaos.org",
+          "url": "https://www.tourismlaos.org/show_province.php?Cont_ID=346"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "geocode": {
+        "lat": 20.571286,
+        "lon": 102.611456
+      },
+      "name": "Nong Khiaw",
+      "description": {
+        "short": "A scenic village along the Nam Ou River.",
+        "long": "Nong Khiaw is a beautiful riverside village in northern Laos, known for its dramatic limestone cliffs and laid-back atmosphere. Visitors can enjoy hiking, biking, and boat trips through the surrounding area."
+      },
+      "image": {
+        "url": "la6.jpg",
+        "alt": "Nong Khiaw",
+        "license": "Ekrem Canli (https://de.wikipedia.org/wiki/Benutzer:HylgeriaK) Creative Commons Attribution-Share Alike 4.0"
+      },
+      "resourceLinks": [
+        {
+          "domain": "tourismlaos.org",
+          "url": "https://www.tourismlaos.org/show_province.php?Cont_ID=347"
+        },
+        {
+          "domain": "wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Nong_Khiaw"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "geocode": {
+        "lat": 19.749167,
+        "lon": 101.991667
+      },
+      "name": "Kuang Si Falls",
+      "description": {
+        "short": "A stunning multi-tiered waterfall near Luang Prabang.",
+        "long": "Kuang Si Falls is one of the most beautiful waterfalls in Laos, with turquoise pools that are perfect for swimming. The falls are located about 30 kilometers from Luang Prabang and are a popular spot for both locals and tourists."
+      },
+      "image": {
+        "url": "la7.jpg",
+        "alt": "Kuang Si Falls with turquoise pools",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "tourismlaos.org",
+          "url": "https://www.tourismlaos.org/show_province.php?Cont_ID=341"
+        },
+        {
+          "domain": "wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Kuang_Si_Falls"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "geocode": {
+        "lat": 14.05,
+        "lon": 105.84
+      },
+      "name": "Si Phan Don",
+      "description": {
+        "short": "An archipelago of 4,000 islands on the Mekong River.",
+        "long": "Si Phan Don, meaning 'Four Thousand Islands,' is a riverine archipelago in southern Laos. Visitors can explore the islands by boat, see rare Irrawaddy dolphins, and visit waterfalls such as Khone Phapheng Falls."
+      },
+      "image": {
+        "url": "la8.jpg",
+        "alt": "Islands of Si Phan Don in the Mekong River",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "tourismlaos.org",
+          "url": "https://www.tourismlaos.org/show_province.php?Cont_ID=344"
+        },
+        {
+          "domain": "wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Si_Phan_Don"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "geocode": {
+        "lat": 18.926667,
+        "lon": 102.449444
+      },
+      "name": "Vang Vieng",
+      "description": {
+        "short": "A backpacker's paradise known for adventure activities.",
+        "long": "Vang Vieng is a small town surrounded by limestone mountains and caves. It is a popular destination for backpackers, offering activities such as tubing down the Nam Song River, rock climbing, and hiking."
+      },
+      "image": {
+        "url": "la9.jpg",
+        "alt": "Vang Vieng",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "tourismlaos.org",
+          "url": "https://www.tourismlaos.org/show_province.php?Cont_ID=345"
+        },
+        {
+          "domain": "en.wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Vang_Vieng"
+        }
+      ]
+    }
+  ]
+  
