@@ -1,0 +1,246 @@
+[
+    {
+      "id": "0",
+      "geocode": {
+        "lat": 23.1367,
+        "lon": -82.3589
+      },
+      "name": "Old Havana (Habana Vieja)",
+      "description": {
+        "short": "A UNESCO World Heritage Site with colonial architecture.",
+        "long": "Old Havana is a vibrant and historic neighborhood in Cuba's capital, featuring cobblestone streets, colorful colonial buildings, and iconic landmarks like El Capitolio and Plaza de la Catedral. It's a must-visit for its rich culture and history."
+      },
+      "image": {
+        "url": "cu0.jpg",
+        "alt": "National Capitol of Cuba",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "whc.unesco.org",
+          "url": "https://whc.unesco.org/en/list/204/"
+        },
+        {
+          "domain": "cuba.travel",
+          "url": "https://www.cuba.travel/en/destinations/havana-cuba"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "geocode": {
+        "lat": 22.616667,
+        "lon": -83.716667
+      },
+      "name": "Viñales Valley",
+      "description": {
+        "short": "A scenic valley known for tobacco fields and mogotes.",
+        "long": "Viñales Valley is a UNESCO World Heritage Site famous for its stunning karst landscapes, traditional tobacco farming, and rustic charm. Visitors can explore caves, hike, or take a horseback ride through the lush valley."
+      },
+      "image": {
+        "url": "cu1.jpg",
+        "alt": "Mogotes in Viñales Valley",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "whc.unesco.org",
+          "url": "https://whc.unesco.org/en/list/840/"
+        },
+        {
+          "domain": "wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Vi%C3%B1ales_Valley"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "geocode": {
+        "lat": 20.021667,
+        "lon": -75.829444
+      },
+      "name": "Santiago de Cuba",
+      "description": {
+        "short": "The cultural capital of Cuba.",
+        "long": "Santiago de Cuba is known for its Afro-Cuban culture, vibrant music scene, and historical significance. Key attractions include Castillo del Morro, the Moncada Barracks, and the annual Carnival celebration."
+      },
+      "image": {
+        "url": "cu2.jpg",
+        "alt": "City view of Santiago de Cuba",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "cuba.travel",
+          "url": "https://www.cuba.travel/en/Where-to-go/Santiago-de-Cuba"
+        },
+        {
+          "domain": "lonelyplanet.com",
+          "url": "https://www.lonelyplanet.com/cuba/eastern-cuba/santiago-de-cuba"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "geocode": {
+        "lat": 22.514722,
+        "lon": -78.511389
+      },
+      "name": "Cayo Coco",
+      "description": {
+        "short": "A tropical paradise with white sandy beaches.",
+        "long": "Cayo Coco is a pristine island in Cuba's Jardines del Rey archipelago, known for its luxury resorts, crystal-clear waters, and diverse marine life. It's a popular destination for beach lovers and water sports enthusiasts."
+      },
+      "image": {
+        "url": "cu3.jpg",
+        "alt": "Beach in Cayo Coco",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "cuba.travel",
+          "url": "https://www.cuba.travel/en/Discover-Cuba/Beaches/Cayo-Coco"
+        },
+        {
+          "domain": "tripadvisor.com",
+          "url": "https://www.tripadvisor.com/Tourism-g580450-Cayo_Coco_Ciego_de_Avila_Province_Cuba-Vacations.html"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "geocode": {
+        "lat": 23.141667,
+        "lon": -82.368056
+      },
+      "name": "El Malecón",
+      "description": {
+        "short": "A famous seaside promenade in Havana.",
+        "long": "El Malecón is a 7-kilometer-long boulevard that stretches along Havana's coastline. It is a popular spot for locals and tourists to enjoy stunning sunsets, ocean views, and the vibrant energy of the city."
+      },
+      "image": {
+        "url": "cu4.jpg",
+        "alt": "People along El Malecón in Havana",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Malec%C3%B3n,_Havana"
+        },
+        {
+          "domain": "lonelyplanet.com",
+          "url": "https://www.lonelyplanet.com/cuba/havana/centro-habana/attractions/malecon/a/poi-sig/1333969/1341262"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "geocode": {
+        "lat": 20.348611,
+        "lon": -74.510556
+      },
+      "name": "Baracoa",
+      "description": {
+        "short": "Cuba's oldest city surrounded by natural beauty.",
+        "long": "Baracoa is a charming coastal town with a rich history and lush surroundings. Known for its chocolate production, visitors can explore El Yunque Mountain, enjoy the beaches, or hike through the nearby Alejandro de Humboldt National Park."
+      },
+      "image": {
+        "url": "cu5.jpg",
+        "alt": "Lush greenery in Baracoa",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "cuba.travel",
+          "url": "https://www.cuba.travel/en/Where-to-go/Baracoa-Guant%C3%A1namo"
+        },
+        {
+          "domain": "unesco.org",
+          "url": "https://whc.unesco.org/en/list/839/"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "geocode": {
+        "lat": 21.633333,
+        "lon": -81.466667
+      },
+      "name": "Cayo Largo del Sur",
+      "description": {
+        "short": "An island paradise with pristine beaches.",
+        "long": "Cayo Largo del Sur is a small island known for its white sandy beaches, clear waters, and excellent snorkeling and diving opportunities. It's a tranquil escape ideal for relaxation and marine exploration."
+      },
+      "image": {
+        "url": "cu6.jpg",
+        "alt": "Pristine beach at Cayo Largo del Sur",
+        "license": "Creative Commons Attribution-Share Alike 3.0 (Panther)"
+      },
+      "resourceLinks": [
+        {
+          "domain": "cuba.travel",
+          "url": "https://www.cuba.travel/en/Where-to-go/Cayo-Largo-Isle-of-Youth"
+        },
+        {
+          "domain": "tripadvisor.com",
+          "url": "https://www.tripadvisor.com/Tourism-g737152-Cayo_Largo_Cuba-Vacations.html"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "geocode": {
+        "lat": 21.804167,
+        "lon": -79.983056
+      },
+      "name": "Trinidad",
+      "description": {
+        "short": "A colonial gem and UNESCO World Heritage Site.",
+        "long": "Trinidad is a beautifully preserved colonial town with cobblestone streets, pastel-colored houses, and vibrant markets. Highlights include Plaza Mayor, the Museo Romántico, and nearby Playa Ancón."
+      },
+      "image": {
+        "url": "cu7.jpg",
+        "alt": "Colonial streets of Trinidad, Cuba",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "whc.unesco.org",
+          "url": "https://whc.unesco.org/en/list/460/"
+        },
+        {
+          "domain": "cuba.travel",
+          "url": "https://www.cuba.travel/en/destinations/trinidad"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "geocode": {
+        "lat": 22.406919,
+        "lon": -79.964939
+      },
+      "name": "Santa Clara",
+      "description": {
+        "short": "The site of Che Guevara's revolutionary victory.",
+        "long": "Santa Clara is famous for its historical significance in the Cuban Revolution. Key sites include the Che Guevara Mausoleum, the Tren Blindado memorial, and the vibrant city center."
+      },
+      "image": {
+        "url": "cu8.jpg",
+        "alt": "Che Guevara Mausoleum in Santa Clara",
+        "license": "CC BY-SA 3.0 Man-ucomons (https://commons.wikimedia.org/wiki/User:Man-ucommons)"
+      },
+      "resourceLinks": [
+        {
+          "domain": "britannica.com",
+          "url": "https://www.britannica.com/place/Santa-Clara-Cuba"
+        },
+        {
+          "domain": "wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Santa_Clara,_Cuba"
+        }
+      ]
+    }
+  ]
+  
