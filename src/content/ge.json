@@ -1,0 +1,273 @@
+[
+    {
+      "id": "0",
+      "geocode": {
+        "lat": 47.5575,
+        "lon": 10.749444
+      },
+      "name": "Neuschwanstein Castle",
+      "description": {
+        "short": "A fairy-tale castle in Bavaria.",
+        "long": "Neuschwanstein Castle, commissioned by King Ludwig II of Bavaria, is a 19th-century Romanesque Revival palace known for its picturesque setting and inspiration for Disney's Sleeping Beauty Castle."
+      },
+      "image": {
+        "url": "ge0.jpg",
+        "alt": "Neuschwanstein Castle in Bavaria",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "neuschwanstein.de",
+          "url": "https://www.neuschwanstein.de/englisch/tourist/index.htm"
+        },
+        {
+          "domain": "wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Neuschwanstein"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "geocode": {
+        "lat": 52.5163,
+        "lon": 13.3777
+      },
+      "name": "Brandenburg Gate",
+      "description": {
+        "short": "An iconic monument in Berlin.",
+        "long": "The Brandenburg Gate is a neoclassical triumphal arch and one of Germany's most famous landmarks, symbolizing unity and peace after the fall of the Berlin Wall."
+      },
+      "image": {
+        "url": "ge1.jpg",
+        "alt": "Brandenburg Gate in Berlin",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "berlin.de",
+          "url": "https://www.berlin.de/en/attractions-and-sights/3560266-3104052-brandenburg-gate.en.html"
+        },
+        {
+          "domain": "britannica.com",
+          "url": "https://www.britannica.com/topic/Brandenburg-Gate"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "geocode": {
+        "lat": 50.941389,
+        "lon": 6.958333
+      },
+      "name": "Cologne Cathedral",
+      "description": {
+        "short": "A Gothic masterpiece in Cologne.",
+        "long": "Cologne Cathedral is a UNESCO World Heritage Site and one of the largest cathedrals in Europe. Its twin spires and stunning stained glass windows make it a must-visit attraction."
+      },
+      "image": {
+        "url": "ge2.jpg",
+        "alt": "Cologne Cathedral with its twin spires",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "koelner-dom.de",
+          "url": "https://www.koelner-dom.de/"
+        },
+        {
+          "domain": "cologne-tourism.com",
+          "url": "https://www.cologne-tourism.com/arts-culture/sights/detail/cologne-cathedral"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "geocode": {
+        "lat": 48.1373,
+        "lon": 11.5755
+      },
+      "name": "Marienplatz",
+      "description": {
+        "short": "The central square in Munich.",
+        "long": "Marienplatz is the heart of Munich and a vibrant meeting place. It features the historic New Town Hall and the famous Glockenspiel show."
+      },
+      "image": {
+        "url": "ge3.jpg",
+        "alt": "Marienplatz with the New Town Hall in Munich",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "munich.travel",
+          "url": "https://www.munich.travel/en/pois/urban-districts/marienplatz#/"
+        },
+        {
+          "domain": "wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Marienplatz"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "geocode": {
+        "lat": 49.99369,
+        "lon": 7.858428
+      },
+      "name": "The Romantic Rhine",
+      "description": {
+        "short": "A scenic region with castles and vineyards.",
+        "long": "The Romantic Rhine stretches between Koblenz and Bingen and features charming villages, historic castles, and beautiful landscapes along the Rhine River."
+      },
+      "image": {
+        "url": "ge4.jpg",
+        "alt": "The Romantic Rhine with castles and vineyards",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "romantischer-rhein.de",
+          "url": "https://www.romantischer-rhein.de/en/"
+        },
+        {
+          "domain": "germany.travel",
+          "url": "https://www.germany.travel/en/inspiring-germany/magic-by-the-river-dragons-knights-and-courageous-maidens.html"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "geocode": {
+        "lat": 51.491389,
+        "lon": 7.046111
+      },
+      "name": "Zollverein Coal Mine Industrial Complex",
+      "description": {
+        "short": "A UNESCO site in Essen showcasing industrial heritage.",
+        "long": "The Zollverein Coal Mine is a striking example of industrial architecture and a symbol of Germany's coal and steel production history. It houses museums and cultural spaces."
+      },
+      "image": {
+        "url": "ge5.jpg",
+        "alt": "Zollverein Coal Mine Industrial Complex",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "zollverein.de",
+          "url": "https://www.zollverein.de/"
+        },
+        {
+          "domain": "germany.travel",
+          "url": "https://www.germany.travel/en/cities-culture/essen.html"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "geocode": {
+        "lat": 50.981111,
+        "lon": 11.3295
+      },
+      "name": "Weimar",
+      "description": {
+        "short": "A cultural city with a rich history.",
+        "long": "Weimar is famous for its association with Goethe and Schiller, as well as the Bauhaus movement. It features museums, historic sites, and a vibrant arts scene."
+      },
+      "image": {
+        "url": "ge6.jpg",
+        "alt": "Weimar's historic center",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "weimar.de",
+          "url": "https://www.weimar.de/en/"
+        },
+        {
+          "domain": "unesco.org",
+          "url": "https://whc.unesco.org/en/list/846/"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "geocode": {
+        "lat": 54.45,
+        "lon": 13.4
+      },
+      "name": "Rügen Island",
+      "description": {
+        "short": "A stunning island with chalk cliffs and beaches.",
+        "long": "Rügen Island, located in the Baltic Sea, is known for its dramatic chalk cliffs, sandy beaches, and Jasmund National Park."
+      },
+      "image": {
+        "url": "ge7.jpg",
+        "alt": "Chalk cliffs on Rügen Island",
+        "license": "Creative Commons Attribution-Share Alike 4.0, Moahim (https://commons.wikimedia.org/wiki/User:Moahim)"
+      },
+      "resourceLinks": [
+        {
+          "domain": "ruegen.de",
+          "url": "https://www.ruegen.de/"
+        },
+        {
+          "domain": "germany.travel",
+          "url": "https://www.germany.travel/en/nature-outdoor-activities/ruegen-island.html"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "geocode": {
+        "lat": 48.15277,
+        "lon": 11.591944
+      },
+      "name": "English Garden",
+      "description": {
+        "short": "A vast urban park in Munich.",
+        "long": "The English Garden is one of the largest city parks in the world, featuring open green spaces, a Japanese tea house, and the iconic Chinese Tower beer garden."
+      },
+      "image": {
+        "url": "ge8.jpg",
+        "alt": "The English Garden in Munich",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "muenchen.de",
+          "url": "https://www.muenchen.de/en/sights/attractions/english-garden"
+        },
+        {
+          "domain": "wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Englischer_Garten"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "geocode": {
+        "lat": 47.571667,
+        "lon": 10.960556
+      },
+      "name": "Linderhof Palace",
+      "description": {
+        "short": "A small, ornate palace in Bavaria.",
+        "long": "Linderhof Palace is a rococo-style royal villa built by King Ludwig II. It is surrounded by beautiful gardens, fountains, and parkland."
+      },
+      "image": {
+        "url": "ge9.jpg",
+        "alt": "Linderhof Palace and its gardens",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "schlosslinderhof.de",
+          "url": "https://www.schlosslinderhof.de/"
+        },
+        {
+          "domain": "wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Linderhof_Palace"
+        }
+      ]
+    }
+  ]
+  

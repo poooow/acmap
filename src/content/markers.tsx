@@ -8,6 +8,8 @@ import nz from "./nz.json"
 import la from "./la.json"
 import cu from "./cu.json"
 import ir from "./ir.json"
+import at from "./at.json"
+import ge from "./ge.json"
 
 export type Markers = {
   id: string
@@ -31,7 +33,7 @@ export type Markers = {
   }[]
 }[]
 
-const countriesMarkers:{[country:string]: Markers} = { cz: cz, sk: sk, ug: ug, vn: vn, ma: ma, kh: kh, nz: nz, la: la, cu: cu, ir: ir }
+const countriesMarkers: { [country: string]: Markers } = { cz: cz, sk: sk, ug: ug, vn: vn, ma: ma, kh: kh, nz: nz, la: la, cu: cu, ir: ir, at: at, ge: ge }
 
 let markers: Markers = []
 
@@ -39,7 +41,7 @@ const countryCodes = Object.keys(countriesMarkers)
 
 countryCodes.forEach((countryCode) => {
   let countryMarkers = countriesMarkers[countryCode]
-  
+
   countryMarkers.forEach((marker) => {
     marker.id = countryCode + marker.id
     markers.push(marker)

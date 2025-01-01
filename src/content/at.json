@@ -1,0 +1,273 @@
+[
+    {
+      "id": "0",
+      "geocode": {
+        "lat": 48.184516,
+        "lon": 16.311865
+      },
+      "name": "Schönbrunn Palace",
+      "description": {
+        "short": "A magnificent baroque palace in Vienna.",
+        "long": "Schönbrunn Palace is a UNESCO World Heritage Site and one of Austria's most visited attractions. It features stunning gardens, opulent rooms, and the world's oldest zoo."
+      },
+      "image": {
+        "url": "at0.jpg",
+        "alt": "Schönbrunn Palace and its gardens",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "schoenbrunn.at",
+          "url": "https://www.schoenbrunn.at/en/"
+        },
+        {
+          "domain": "vienna.info",
+          "url": "https://www.wien.info/en/art-culture/imperial-sights/schoenbrunn-palace-357558"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "geocode": {
+        "lat": 47.562,
+        "lon": 13.649
+      },
+      "name": "Hallstatt",
+      "description": {
+        "short": "A picturesque village by a lake in the Salzkammergut region.",
+        "long": "Hallstatt is famous for its scenic beauty, historic salt mines, and charming village setting. It is a UNESCO World Heritage Site and a popular destination for nature and history enthusiasts."
+      },
+      "image": {
+        "url": "at1.jpg",
+        "alt": "The village of Hallstatt by the lake",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "unesco.org",
+          "url": "https://whc.unesco.org/en/list/806/"
+        },
+        {
+          "domain": "hallstatt.net",
+          "url": "https://www.hallstatt.net/about-hallstatt/"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "geocode": {
+        "lat": 48.228056,
+        "lon": 15.333889
+      },
+      "name": "Melk Abbey",
+      "description": {
+        "short": "A stunning Benedictine abbey overlooking the Danube River.",
+        "long": "Melk Abbey is a baroque masterpiece known for its lavish interiors, library, and panoramic views of the Wachau Valley. It is a UNESCO World Heritage Site and a highlight of Austria's cultural heritage."
+      },
+      "image": {
+        "url": "at2.jpg",
+        "alt": "Melk Abbey and the Danube River",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "stiftmelk.at",
+          "url": "https://www.stiftmelk.at/"
+        },
+        {
+          "domain": "visitworldheritage.com",
+          "url": "https://visitworldheritage.com/en/eu/melk-abbey-one-of-the-foremost-baroque-ensembles-in-the-world/198a2b54-75b6-4607-8c1c-df3cdf3a9e6c"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "geocode": {
+        "lat": 47.268333,
+        "lon": 11.393333
+      },
+      "name": "Innsbruck",
+      "description": {
+        "short": "A city surrounded by the Alps, known for its winter sports and historic landmarks.",
+        "long": "Innsbruck is a charming alpine city offering a blend of nature and history. Key attractions include the Golden Roof, Imperial Palace, and nearby ski resorts."
+      },
+      "image": {
+        "url": "at3.jpg",
+        "alt": "The city of Innsbruck with the Alps in the background",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "innsbruck.info",
+          "url": "https://www.innsbruck.info/"
+        },
+        {
+          "domain": "austria.info",
+          "url": "https://www.austria.info/en-uk/cities-and-places/innsbruck/"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "geocode": {
+        "lat": 47.083333,
+        "lon": 12.842778
+      },
+      "name": "Grossglockner High Alpine Road",
+      "description": {
+        "short": "A scenic drive through the Austrian Alps.",
+        "long": "The Grossglockner High Alpine Road is a breathtaking journey offering spectacular views of Austria's highest peak, the Grossglockner, and the surrounding Hohe Tauern National Park."
+      },
+      "image": {
+        "url": "at4.jpg",
+        "alt": "Grossglockner High Alpine Road",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "grossglockner.at",
+          "url": "https://www.grossglockner.at/"
+        },
+        {
+          "domain": "austria.info",
+          "url": "https://www.austria.info/en-uk/highlights/themed-and-panoramic-roads/"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "geocode": {
+        "lat": 47.50294,
+        "lon": 13.19025
+      },
+      "name": "Eisriesenwelt Ice Cave",
+      "description": {
+        "short": "The largest ice cave in the world.",
+        "long": "Located near Werfen, Eisriesenwelt Ice Cave is a natural wonder featuring massive ice formations and an underground labyrinth. Guided tours allow visitors to explore its breathtaking interiors."
+      },
+      "image": {
+        "url": "at5.jpg",
+        "alt": "Inside the Eisriesenwelt Ice Cave",
+        "license": "Creative Commons Attribution 2.0, Dale Harvey"
+      },
+      "resourceLinks": [
+        {
+          "domain": "eisriesenwelt.at",
+          "url": "https://www.eisriesenwelt.at/"
+        },
+        {
+          "domain": "wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Eisriesenwelt"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "geocode": {
+        "lat": 47.481944,
+        "lon": 13.187778
+      },
+      "name": "Hohenwerfen Castle",
+      "description": {
+        "short": "A medieval castle in the Salzach Valley.",
+        "long": "Hohenwerfen Castle is a 900-year-old fortress offering guided tours, falconry displays, and spectacular views of the surrounding alpine landscape."
+      },
+      "image": {
+        "url": "at6.jpg",
+        "alt": "Hohenwerfen Castle on a hilltop",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "burg-hohenwerfen.at",
+          "url": "https://www.burg-hohenwerfen.at/"
+        },
+        {
+          "domain": "wikipedia.org",
+          "url": "https://en.wikipedia.org/wiki/Hohenwerfen_Castle"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "geocode": {
+        "lat": 47.2861686,
+        "lon": 11.3990069
+      },
+      "name": "Nordkette Cable Car",
+      "description": {
+        "short": "A scenic cable car ride from Innsbruck to the Alps.",
+        "long": "The Nordkette Cable Car takes visitors from the city of Innsbruck to the stunning alpine landscape of the Nordkette mountain range, offering incredible views and hiking opportunities."
+      },
+      "image": {
+        "url": "at7.jpg",
+        "alt": "Nordkette Cable Car",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "nordkette.com",
+          "url": "https://www.nordkette.com/"
+        },
+        {
+          "domain": "innsbruck.info",
+          "url": "https://www.innsbruck.info/en/sightseeing/nordkette.html"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "geocode": {
+        "lat": 48.202778,
+        "lon": 16.368472
+      },
+      "name": "Vienna State Opera",
+      "description": {
+        "short": "A historic opera house in Vienna.",
+        "long": "The Vienna State Opera is one of the most famous opera houses in the world. It offers world-class performances, guided tours, and a glimpse into Vienna's rich cultural heritage."
+      },
+      "image": {
+        "url": "at8.jpg",
+        "alt": "Vienna State Opera interior",
+        "license": "Public domain"
+      },
+      "resourceLinks": [
+        {
+          "domain": "wiener-staatsoper.at",
+          "url": "https://www.wiener-staatsoper.at/"
+        },
+        {
+          "domain": "wien.info",
+          "url": "https://www.wien.info/en/art-culture/music-stage-shows/opera-operetta/state-opera-359910"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "geocode": {
+        "lat": 47.798233,
+        "lon": 13.0455319
+      },
+      "name": "Salzburg Old Town",
+      "description": {
+        "short": "The historic center of Salzburg.",
+        "long": "Salzburg's Old Town is a UNESCO World Heritage Site filled with baroque architecture, charming streets, and attractions like Mozart's birthplace and Salzburg Cathedral."
+      },
+      "image": {
+        "url": "au9.jpg",
+        "alt": "Salzburg Old Town with its historic buildings",
+        "license": "Creative Commons Zero, Public Domain Dedication"
+      },
+      "resourceLinks": [
+        {
+          "domain": "salzburg.info",
+          "url": "https://www.salzburg.info/en"
+        },
+        {
+          "domain": "austria.info",
+          "url": "https://www.austria.info/en-uk/cities-and-places/salzburg/"
+        }
+      ]
+    }
+  ]
+  
